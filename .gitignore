@@ -1,0 +1,12 @@
+Outputs/Outputs/bin/
+Outputs/Outputs/lib/
+Outputs/.vs/
+*.suo
+*.sdf
+*.opensdf
+*.vcxproj.user
+*.bak
+*.APS
+*.VC.opendb
+*.VC.db
+*.orig
