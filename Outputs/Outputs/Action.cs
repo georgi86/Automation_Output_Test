@@ -441,9 +441,6 @@ namespace Outputs
             
         }
 
-    //edkdksnuhncunf
-
-    //kjvreivnreisnvdreihncvreiuvhreibvn
 
 #region Image Feature Data
 #endregion
