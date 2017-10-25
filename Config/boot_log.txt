@@ -52471,3 +52471,193 @@ Fri Oct 20 11:06:30 2017 EVMX Hardware Initialization: SUCCEEDED
 Fri Oct 20 11:06:30 2017 EVMX SetVideoDSP: SUCCEEDED
 Fri Oct 20 11:06:30 2017 EVMX Strobe Wire IS Detected.
 Fri Oct 20 11:06:30 2017 EVMX Init Focus: SUCCEEDED
+Tue Oct 24 09:44:13 2017 EVMX 
+--------------------------------------------------------------------------------
+Tue Oct 24 09:44:13 2017 EVMX Booting SNAP-X Version 2.05.32
+Tue Oct 24 09:44:13 2017 EVMX Windows Version 6.1.7601 Service Pack 1 Product Type: 1
+Tue Oct 24 09:44:22 2017 EVMX Init Windowing system
+Tue Oct 24 09:44:33 2017 EVMX Initializing hardware: OGP_COMPARATOR = 6
+Tue Oct 24 09:44:33 2017 EVMX Detecting Hardwrare...
+Tue Oct 24 09:44:33 2017 EVMX SNAP Sevo Board Firmware: 046646 REV. DX3
+
+Tue Oct 24 09:44:33 2017 EVMX SNAP Sevo PCBA part number: 065201-3
+
+Tue Oct 24 09:44:34 2017 EVMX TruLight firmware: Firmware Revision A
+
+Tue Oct 24 09:44:34 2017 EVMX PCBA Part Number: 065601-1
+
+Tue Oct 24 09:44:35 2017 EVMX Motorized Accessory: 12
+Tue Oct 24 09:44:35 2017 EVMX SNAP200 Detected.
+Tue Oct 24 09:44:35 2017 EVMX Initializing Video...
+Tue Oct 24 09:44:35 2017 EVMX Creating video board
+	detecting Vivid.....
+Tue Oct 24 09:44:35 2017 EVMX not found.
+	detecting ISG.....
+Tue Oct 24 09:44:35 2017 EVMX not found.
+	detecting SView.....
+Tue Oct 24 09:44:35 2017 EVMX not found.
+	detecting Pylon.....
+Tue Oct 24 09:44:35 2017 EVMX created.
+
+Tue Oct 24 09:44:35 2017 EVMX Video Board = Basler
+
+Tue Oct 24 09:44:36 2017 EVMX Video Board Detected: Basler acA2040-25gm
+Tue Oct 24 09:44:36 2017 EVMX Video Init succeeded
+Tue Oct 24 09:44:36 2017 EVMX FinalizeUIInitialization
+Tue Oct 24 09:44:57 2017 EVMX Motorized Z: Top Limit = 3275,	Bottom Limit = 7790,	Z Travel: 4515
+Tue Oct 24 09:44:57 2017 EVMX Hardware Initialization: SUCCEEDED
+Tue Oct 24 09:44:57 2017 EVMX SetVideoDSP: SUCCEEDED
+Tue Oct 24 09:44:57 2017 EVMX Strobe Wire IS Detected.
+Tue Oct 24 09:44:57 2017 EVMX Init Focus: SUCCEEDED
+Tue Oct 24 15:52:34 2017 EVMX 
+--------------------------------------------------------------------------------
+Tue Oct 24 15:52:34 2017 EVMX Booting SNAP-X Version 2.00.32
+Tue Oct 24 15:52:34 2017 EVMX Windows Version 6.1.7601 Service Pack 1 Product Type: 1
+Tue Oct 24 15:52:47 2017 EVMX Init Windowing system
+Tue Oct 24 15:52:57 2017 EVMX Initializing hardware: OGP_COMPARATOR = 6
+Tue Oct 24 15:52:57 2017 EVMX Detecting Hardwrare...
+Tue Oct 24 15:52:58 2017 EVMX SNAP Sevo Board Firmware: 046646 REV. DX3
+
+Tue Oct 24 15:52:58 2017 EVMX SNAP Sevo PCBA part number: 065201-3
+
+Tue Oct 24 15:52:58 2017 EVMX TruLight firmware: Firmware Revision A
+
+Tue Oct 24 15:52:58 2017 EVMX PCBA Part Number: 065601-1
+
+Tue Oct 24 15:52:59 2017 EVMX Motorized Accessory: 12
+Tue Oct 24 15:52:59 2017 EVMX SNAP200 Detected.
+Tue Oct 24 15:52:59 2017 EVMX Initializing Video...
+Tue Oct 24 15:52:59 2017 EVMX Creating video board
+	detecting Vivid.....
+Tue Oct 24 15:52:59 2017 EVMX not found.
+	detecting ISG.....
+Tue Oct 24 15:52:59 2017 EVMX not found.
+	detecting SView.....
+Tue Oct 24 15:52:59 2017 EVMX not found.
+	detecting Pylon.....
+Tue Oct 24 15:53:01 2017 EVMX created.
+
+Tue Oct 24 15:53:01 2017 EVMX Video Board = Basler
+
+Tue Oct 24 15:53:02 2017 EVMX Video Board Detected: Basler acA2040-25gm
+Tue Oct 24 15:53:02 2017 EVMX Video Init succeeded
+Tue Oct 24 15:53:02 2017 EVMX FinalizeUIInitialization
+Tue Oct 24 15:53:21 2017 EVMX Motorized Z: Top Limit = 3275,	Bottom Limit = 7790,	Z Travel: 4515
+Tue Oct 24 15:53:21 2017 EVMX Hardware Initialization: SUCCEEDED
+Tue Oct 24 15:53:21 2017 EVMX SetVideoDSP: SUCCEEDED
+Tue Oct 24 15:53:21 2017 EVMX Strobe Wire IS Detected.
+Tue Oct 24 15:53:22 2017 EVMX Init Focus: SUCCEEDED
+Tue Oct 24 16:23:31 2017 EVMX 
+--------------------------------------------------------------------------------
+Tue Oct 24 16:23:31 2017 EVMX Booting SNAP-X Version 2.00.32
+Tue Oct 24 16:23:31 2017 EVMX Windows Version 6.1.7601 Service Pack 1 Product Type: 1
+Tue Oct 24 16:23:44 2017 EVMX Init Windowing system
+Tue Oct 24 16:23:54 2017 EVMX Initializing hardware: OGP_COMPARATOR = 6
+Tue Oct 24 16:23:54 2017 EVMX Detecting Hardwrare...
+Tue Oct 24 16:23:54 2017 EVMX SNAP Sevo Board Firmware: 046646 REV. DX3
+
+Tue Oct 24 16:23:54 2017 EVMX SNAP Sevo PCBA part number: 065201-3
+
+Tue Oct 24 16:23:54 2017 EVMX TruLight firmware: Firmware Revision A
+
+Tue Oct 24 16:23:55 2017 EVMX PCBA Part Number: 065601-1
+
+Tue Oct 24 16:23:56 2017 EVMX Motorized Accessory: 12
+Tue Oct 24 16:23:56 2017 EVMX SNAP200 Detected.
+Tue Oct 24 16:23:56 2017 EVMX Initializing Video...
+Tue Oct 24 16:23:56 2017 EVMX Creating video board
+	detecting Vivid.....
+Tue Oct 24 16:23:56 2017 EVMX not found.
+	detecting ISG.....
+Tue Oct 24 16:23:56 2017 EVMX not found.
+	detecting SView.....
+Tue Oct 24 16:23:56 2017 EVMX not found.
+	detecting Pylon.....
+Tue Oct 24 16:23:57 2017 EVMX created.
+
+Tue Oct 24 16:23:57 2017 EVMX Video Board = Basler
+
+Tue Oct 24 16:23:58 2017 EVMX Video Board Detected: Basler acA2040-25gm
+Tue Oct 24 16:23:58 2017 EVMX Video Init succeeded
+Tue Oct 24 16:23:58 2017 EVMX FinalizeUIInitialization
+Tue Oct 24 16:24:19 2017 EVMX Motorized Z: Top Limit = 3275,	Bottom Limit = 7790,	Z Travel: 4515
+Tue Oct 24 16:24:19 2017 EVMX Hardware Initialization: SUCCEEDED
+Tue Oct 24 16:24:19 2017 EVMX SetVideoDSP: SUCCEEDED
+Tue Oct 24 16:24:19 2017 EVMX Strobe Wire IS Detected.
+Tue Oct 24 16:24:19 2017 EVMX Init Focus: SUCCEEDED
+Wed Oct 25 10:07:54 2017 EVMX 
+--------------------------------------------------------------------------------
+Wed Oct 25 10:07:54 2017 EVMX Booting SNAP-X Version 2.00.32
+Wed Oct 25 10:07:54 2017 EVMX Windows Version 6.1.7601 Service Pack 1 Product Type: 1
+Wed Oct 25 10:08:07 2017 EVMX Init Windowing system
+Wed Oct 25 10:08:17 2017 EVMX Initializing hardware: OGP_COMPARATOR = 6
+Wed Oct 25 10:08:17 2017 EVMX Detecting Hardwrare...
+Wed Oct 25 10:08:17 2017 EVMX SNAP Sevo Board Firmware: 046646 REV. DX3
+
+Wed Oct 25 10:08:17 2017 EVMX SNAP Sevo PCBA part number: 065201-3
+
+Wed Oct 25 10:08:17 2017 EVMX TruLight firmware: Firmware Revision A
+
+Wed Oct 25 10:08:17 2017 EVMX PCBA Part Number: 065601-1
+
+Wed Oct 25 10:08:18 2017 EVMX Motorized Accessory: 12
+Wed Oct 25 10:08:18 2017 EVMX SNAP200 Detected.
+Wed Oct 25 10:08:19 2017 EVMX Initializing Video...
+Wed Oct 25 10:08:19 2017 EVMX Creating video board
+	detecting Vivid.....
+Wed Oct 25 10:08:19 2017 EVMX not found.
+	detecting ISG.....
+Wed Oct 25 10:08:19 2017 EVMX not found.
+	detecting SView.....
+Wed Oct 25 10:08:19 2017 EVMX not found.
+	detecting Pylon.....
+Wed Oct 25 10:08:20 2017 EVMX created.
+
+Wed Oct 25 10:08:20 2017 EVMX Video Board = Basler
+
+Wed Oct 25 10:08:21 2017 EVMX Video Board Detected: Basler acA2040-25gm
+Wed Oct 25 10:08:21 2017 EVMX Video Init succeeded
+Wed Oct 25 10:08:21 2017 EVMX FinalizeUIInitialization
+Wed Oct 25 10:08:42 2017 EVMX Motorized Z: Top Limit = 3275,	Bottom Limit = 7790,	Z Travel: 4515
+Wed Oct 25 10:08:42 2017 EVMX Hardware Initialization: SUCCEEDED
+Wed Oct 25 10:08:42 2017 EVMX SetVideoDSP: SUCCEEDED
+Wed Oct 25 10:08:42 2017 EVMX Strobe Wire IS Detected.
+Wed Oct 25 10:08:42 2017 EVMX Init Focus: SUCCEEDED
+Wed Oct 25 11:47:38 2017 EVMX 
+--------------------------------------------------------------------------------
+Wed Oct 25 11:47:38 2017 EVMX Booting SNAP-X Version 2.00.32
+Wed Oct 25 11:47:38 2017 EVMX Windows Version 6.1.7601 Service Pack 1 Product Type: 1
+Wed Oct 25 11:47:51 2017 EVMX Init Windowing system
+Wed Oct 25 11:48:01 2017 EVMX Initializing hardware: OGP_COMPARATOR = 6
+Wed Oct 25 11:48:01 2017 EVMX Detecting Hardwrare...
+Wed Oct 25 11:48:01 2017 EVMX SNAP Sevo Board Firmware: 046646 REV. DX3
+
+Wed Oct 25 11:48:01 2017 EVMX SNAP Sevo PCBA part number: 065201-3
+
+Wed Oct 25 11:48:01 2017 EVMX TruLight firmware: Firmware Revision A
+
+Wed Oct 25 11:48:01 2017 EVMX PCBA Part Number: 065601-1
+
+Wed Oct 25 11:48:03 2017 EVMX Motorized Accessory: 12
+Wed Oct 25 11:48:03 2017 EVMX SNAP200 Detected.
+Wed Oct 25 11:48:03 2017 EVMX Initializing Video...
+Wed Oct 25 11:48:03 2017 EVMX Creating video board
+	detecting Vivid.....
+Wed Oct 25 11:48:03 2017 EVMX not found.
+	detecting ISG.....
+Wed Oct 25 11:48:03 2017 EVMX not found.
+	detecting SView.....
+Wed Oct 25 11:48:03 2017 EVMX not found.
+	detecting Pylon.....
+Wed Oct 25 11:48:04 2017 EVMX created.
+
+Wed Oct 25 11:48:04 2017 EVMX Video Board = Basler
+
+Wed Oct 25 11:48:05 2017 EVMX Video Board Detected: Basler acA2040-25gm
+Wed Oct 25 11:48:05 2017 EVMX Video Init succeeded
+Wed Oct 25 11:48:05 2017 EVMX FinalizeUIInitialization
+Wed Oct 25 11:48:32 2017 EVMX Motorized Z: Top Limit = 3275,	Bottom Limit = 7790,	Z Travel: 4515
+Wed Oct 25 11:48:33 2017 EVMX Hardware Initialization: SUCCEEDED
+Wed Oct 25 11:48:33 2017 EVMX SetVideoDSP: SUCCEEDED
+Wed Oct 25 11:48:33 2017 EVMX Strobe Wire IS Detected.
+Wed Oct 25 11:48:33 2017 EVMX Init Focus: SUCCEEDED

@@ -258,3 +258,163 @@ Wed Oct 18 16:18:49 2017 EVMX Configuration.ini, CYLINDER_RADIUS,    CYR,    CYR
 Wed Oct 18 16:18:49 2017 EVMX Configuration.ini, CONE_RADIUS,    CNR,    CNR OGPuiConfigureOutputTags3Page
 Wed Oct 18 16:18:49 2017 EVMX Configuration.ini, CYLINDER_DIAMETER,    CYD,    CYD OGPuiConfigureOutputTags3Page
 Wed Oct 18 16:18:49 2017 EVMX Configuration.ini, CYLINDER_RADIUS,    CYR,    CYR OGPuiConfigureOutputTags3Page
+Tue Oct 24 15:57:00 2017 EVMX AutoID.ini, AUTOID_EDGE_DETECTION, 1, 0 Config Editor
+Tue Oct 24 15:57:15 2017 EVMX AutoID.ini, AUTOID_EDGE_DETECTION, 0, 1 Config Editor
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, STATS_BOR, ,  Configure Output Statistics
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, STATS_BOF, ,  Configure Output Statistics
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, STATS_TEMPLATE, @D@,@P^J, @D@,@P^J Configure Output Statistics
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, STATS_EOM, ,  Configure Output Statistics
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, STATS_EOT, ,  Configure Output Statistics
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, STATS_DEFAULT_FILE_EXTENSION, STA, STA Configure Output Statistics
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, X_LOCATION,      X,      X OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, Y_LOCATION,      Y,      Y OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, Z_LOCATION,      Z,      Z OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, R_LOCATION,      R,      R OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, A_LOCATION,      A,      A OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, ANGLE,    ANG,    ANG OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, ANGLE1,    ANG,    ANG OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, ANGLE2,    ANG,    ANG OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, ANGLE3,    ANG,    ANG OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, ANGLE4,    ANG,    ANG OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, ANGLE_BET,    ANG,    ANG OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, DIAMETER,    DIA,    DIA OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, FLATNESS,    FLT,    FLT OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, WIDTH,    WID,    WID OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, MIN_WIDTH,    WID,    WID OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, MAX_WIDTH,    WID,    WID OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, PERPEND_DIST,    DIS,    DIS OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, 3_D_DIST,    DIS,    DIS OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, RADIUS,    RAD,    RAD OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, ROUNDNESS,    RND,    RND OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, SPHERE_DIA,    DIA,    DIA OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, SPHERE_RADIUS,    RAD,    RAD OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, STRAIGHT_LINE,    DIS,    DIS OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, STRAIGHTNESS,    STR,    STR OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, SUP_ANGLE,    ANG,    ANG OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, X_DISTANCE,     XD,     XD OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, Y_DISTANCE,     YD,     YD OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, Z_DISTANCE,     ZD,     ZD OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, CONCENTRICITY,    CON,    CON OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, CL_ANGLE,    WCA,    WCA OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, MINIMUM,    MIN,    MIN OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, MAXIMUM,    MAX,    MAX OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, AVERAGE,    AVG,    AVG OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, INCLINATION1,    INC,    INC OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, INCLINATION2,    INC,    INC OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, PROFILE_PLUS,    PRP,    PRP OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, PROFILE_MINUS,    PRM,    PRM OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, MAX_DIAMETER,    MXD,    MXD OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, MIN_DIAMETER,    MID,    MID OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, MAX_RADIUS,    MXR,    MXR OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, MIN_RADIUS,    MIR,    MIR OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, ANGULARITY,    DST,    DST OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, PERPENDICULARITY,    PER,    PER OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, PARALLELISM,    PAR,    PAR OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, RESULT,    RES,    RES OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, HEIGHT_DEPTH,    PHD,    PHD OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, USER_INPUT,    INP,    INP OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, TRUE_POS,    POS,    POS OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, MANUAL_TEXT,    TXT,    TXT OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, LENGTH,    LEN,    LEN OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, AREA,    ARE,    ARE OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, CYLINDRICITY,    CYL,    CYL OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, CONICITY,    CNC,    CNC OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, MIN_RADIAL_DIST,    MNR,    MNR OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, MAX_RADIAL_DIST,    MXR,    MXR OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, PERIMETER,    PMR,    PMR OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, CENTROID_AREA,    BAR,    BAR OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, FULL_ANGLE,    FTA,    FTA OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, HALF_ANGLE,    HTA,    HTA OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, CONE_DIAMETER,    CND,    CND OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, CONE_RADIUS,    CNR,    CNR OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, CYLINDER_DIAMETER,    CYD,    CYD OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, CYLINDER_RADIUS,    CYR,    CYR OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, CONE_RADIUS,    CNR,    CNR OGPuiConfigureOutputTags3Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, CYLINDER_DIAMETER,    CYD,    CYD OGPuiConfigureOutputTags3Page
+Wed Oct 25 10:38:25 2017 EVMX Configuration.ini, CYLINDER_RADIUS,    CYR,    CYR OGPuiConfigureOutputTags3Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, STATS_BOR, ,  Configure Output Statistics
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, STATS_BOF, ,  Configure Output Statistics
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, STATS_TEMPLATE, @D@,@P^J, @D@,@P^J Configure Output Statistics
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, STATS_EOM, ,  Configure Output Statistics
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, STATS_EOT, ,  Configure Output Statistics
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, STATS_DEFAULT_FILE_EXTENSION, STA, STA Configure Output Statistics
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, X_LOCATION,      X,      X OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, Y_LOCATION,      Y,      Y OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, Z_LOCATION,      Z,      Z OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, R_LOCATION,      R,      R OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, A_LOCATION,      A,      A OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, ANGLE,    ANG,    ANG OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, ANGLE1,    ANG,    ANG OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, ANGLE2,    ANG,    ANG OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, ANGLE3,    ANG,    ANG OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, ANGLE4,    ANG,    ANG OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, ANGLE_BET,    ANG,    ANG OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, DIAMETER,    DIA,    DIA OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, FLATNESS,    FLT,    FLT OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, WIDTH,    WID,    WID OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, MIN_WIDTH,    WID,    WID OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, MAX_WIDTH,    WID,    WID OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, PERPEND_DIST,    DIS,    DIS OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, 3_D_DIST,    DIS,    DIS OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, RADIUS,    RAD,    RAD OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, ROUNDNESS,    RND,    RND OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, SPHERE_DIA,    DIA,    DIA OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, SPHERE_RADIUS,    RAD,    RAD OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, STRAIGHT_LINE,    DIS,    DIS OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, STRAIGHTNESS,    STR,    STR OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, SUP_ANGLE,    ANG,    ANG OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, X_DISTANCE,     XD,     XD OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, Y_DISTANCE,     YD,     YD OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, Z_DISTANCE,     ZD,     ZD OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, CONCENTRICITY,    CON,    CON OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, CL_ANGLE,    WCA,    WCA OGPuiConfigureOutputTags1Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, MINIMUM,    MIN,    MIN OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, MAXIMUM,    MAX,    MAX OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, AVERAGE,    AVG,    AVG OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, INCLINATION1,    INC,    INC OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, INCLINATION2,    INC,    INC OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, PROFILE_PLUS,    PRP,    PRP OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, PROFILE_MINUS,    PRM,    PRM OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, MAX_DIAMETER,    MXD,    MXD OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, MIN_DIAMETER,    MID,    MID OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, MAX_RADIUS,    MXR,    MXR OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, MIN_RADIUS,    MIR,    MIR OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, ANGULARITY,    DST,    DST OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, PERPENDICULARITY,    PER,    PER OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, PARALLELISM,    PAR,    PAR OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, RESULT,    RES,    RES OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, HEIGHT_DEPTH,    PHD,    PHD OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, USER_INPUT,    INP,    INP OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, TRUE_POS,    POS,    POS OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, MANUAL_TEXT,    TXT,    TXT OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, LENGTH,    LEN,    LEN OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, AREA,    ARE,    ARE OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, CYLINDRICITY,    CYL,    CYL OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, CONICITY,    CNC,    CNC OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, MIN_RADIAL_DIST,    MNR,    MNR OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, MAX_RADIAL_DIST,    MXR,    MXR OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, PERIMETER,    PMR,    PMR OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, CENTROID_AREA,    BAR,    BAR OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, FULL_ANGLE,    FTA,    FTA OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, HALF_ANGLE,    HTA,    HTA OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, CONE_DIAMETER,    CND,    CND OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, CONE_RADIUS,    CNR,    CNR OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, CYLINDER_DIAMETER,    CYD,    CYD OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, CYLINDER_RADIUS,    CYR,    CYR OGPuiConfigureOutputTags2Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, CONE_RADIUS,    CNR,    CNR OGPuiConfigureOutputTags3Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, CYLINDER_DIAMETER,    CYD,    CYD OGPuiConfigureOutputTags3Page
+Wed Oct 25 10:42:27 2017 EVMX Configuration.ini, CYLINDER_RADIUS,    CYR,    CYR OGPuiConfigureOutputTags3Page
+Wed Oct 25 10:43:39 2017 EVMX Configuration.ini, STATS_BOR, ,  Configure Output Statistics
+Wed Oct 25 10:43:39 2017 EVMX Configuration.ini, STATS_BOF, ,  Configure Output Statistics
+Wed Oct 25 10:43:39 2017 EVMX Configuration.ini, STATS_TEMPLATE, @D@,@P^J, @D@,@P^J Configure Output Statistics
+Wed Oct 25 10:43:39 2017 EVMX Configuration.ini, STATS_EOM, ,  Configure Output Statistics
+Wed Oct 25 10:43:39 2017 EVMX Configuration.ini, STATS_EOT, ,  Configure Output Statistics
+Wed Oct 25 10:43:39 2017 EVMX Configuration.ini, STATS_DEFAULT_FILE_EXTENSION, STA, STA Configure Output Statistics
+Wed Oct 25 10:48:46 2017 EVMX Input.ini, SMART_REPORT_PATH, D:\Joro\AUTOMATION\TESTS\SnapX\RegressionOutpurs\Reports\, D:\Joro\GIT_Automations\Automation_Output_Test\Reports\ Config Editor
+Wed Oct 25 12:08:57 2017 EVMX Configuration.ini, STATS_BOR, ,  Configure Output Statistics
+Wed Oct 25 12:08:57 2017 EVMX Configuration.ini, STATS_BOF, ,  Configure Output Statistics
+Wed Oct 25 12:08:57 2017 EVMX Configuration.ini, STATS_TEMPLATE, @D@,@P^J, @D@,@P^J Configure Output Statistics
+Wed Oct 25 12:08:57 2017 EVMX Configuration.ini, STATS_EOM, ,  Configure Output Statistics
+Wed Oct 25 12:08:57 2017 EVMX Configuration.ini, STATS_EOT, ,  Configure Output Statistics
+Wed Oct 25 12:08:57 2017 EVMX Configuration.ini, STATS_DEFAULT_FILE_EXTENSION, STA, STA Configure Output Statistics
+Wed Oct 25 12:49:04 2017 EVMX Input.ini, SMART_REPORT_PATH, D:\Joro\GIT_Automations\Automation_Output_Test\Reports\, D:\Joro\GIT_Automations\AutomationOutputs\Reports\ Config Editor
