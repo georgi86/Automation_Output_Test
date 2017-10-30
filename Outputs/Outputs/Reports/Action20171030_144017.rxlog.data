@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="366e1a5be470b10"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="EVMX"
+		host="SNAPDM200"
+		rxversion="7.0.1.0"
+		osversion="Windows 7 Service Pack 1 32bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="10/30/2017 14:40:18"
+		timestampiso="2017-10-30T12:40:18"
+		timeoutfactor="1"
+		module="Action">
+		<detail>
+			Action
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.091"
+			timeRelativeToTestModuleStartTime="00:00.091"
+			timeWallClock="14:40:18"
+			time="00:00.091"
+			level="Info"
+			category="Application"
+			errimg=".\Action20_b91f0557_84caf44d_trace.jpg"
+			errthumb=".\Action20_b91f0557_84caf44d_trace_thumb.jpg">
+			<message>
+				Run application 'D:\Joro\GIT_Automations\AutomationOutputs\Reports\excel.xls' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="48"
+				codefile="d:\Joro\GIT_Automations\AutomationOutputs\Outputs\Outputs\Action.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.111"
+			timeRelativeToTestModuleStartTime="00:00.111"
+			timeWallClock="14:40:18"
+			time="00:00.111"
+			level="Info"
+			category="Invoke Action"
+			errimg=".\Action20_b91f0557_84caf44d_trace.jpg"
+			errthumb=".\Action20_b91f0557_84caf44d_trace_thumb.jpg">
+			<message>
+				Invoking Maximize() on item 'MicrosoftExcelExcelXls'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='EXCEL']"
+				fullname="OutputsRepository.MicrosoftExcelExcelXls.Self"
+				id="417d1a3579d14fed8977144be5f06976"
+				timeout="30000"
+				codefile="d:\Joro\GIT_Automations\AutomationOutputs\Outputs\Outputs\Action.cs"
+				codeline="86"
+				itemindex="49"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.211"
+			timeRelativeToTestModuleStartTime="00:07.211"
+			timeWallClock="14:40:26"
+			time="00:07.211"
+			level="Error"
+			category="User"
+			errimg=".\Action20_b91f0557_1f16c785_trace.jpg"
+			errthumb=".\Action20_b91f0557_1f16c785_trace_thumb.jpg">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

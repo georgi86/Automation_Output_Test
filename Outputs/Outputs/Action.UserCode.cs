@@ -33,5 +33,11 @@ namespace Outputs
             // Your recording specific initialization code goes here.
         }
 
+        public void Action_Run_Application()
+        {
+            Report.Log(ReportLevel.Info, "Application", "Run application 'D:\\Joro\\GIT_Automations\\AutomationOutputs\\Reports\\excel.xls' with arguments '' in normal mode.");
+            Host.Local.RunApplication("D:\\Joro\\GIT_Automations\\AutomationOutputs\\Reports\\excel.xls", "", "D:\\Joro\\GIT_Automations\\AutomationOutputs\\Reports", false);
+        }
+
     }
 }

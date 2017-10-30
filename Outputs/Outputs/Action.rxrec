@@ -719,7 +719,7 @@ FABRRRQB/9k=
 			</info>
 		</keysequenceitem>
 		<keysequenceitem
-		KeySequence="D:\Joro\AUTOMATION\TESTS\SnapX\RegressionOutpurs\Routine\AllOutputTypes.mxy"
+		KeySequence="D:\Joro\GIT_Automations\AutomationOutputs\Routine\AllOutputTypes.mxy"
 		duration="100ms"
 		enabled="True"
 		optional="False"
@@ -1956,7 +1956,7 @@ f8Tn/Glij8oYDuVHAU4wP0zRRQBBL/yEU/3B/M1doopAFFFFABRRRQB//9k=
 			<bindings>
 			</bindings>
 			<filename>
-				D:\Joro\AUTOMATION\TESTS\SnapX\RegressionOutpurs\Reports\statistic.STA
+				D:\Joro\GIT_Automations\AutomationOutputs\Reports\statistic.STA
 			</filename>
 			<workingdir>
 				D:\Joro\AUTOMATION\TESTS\SnapX\RegressionOutpurs\Reports
@@ -2821,7 +2821,7 @@ igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAP/Z
 			<bindings>
 			</bindings>
 			<filename>
-				D:\Joro\AUTOMATION\TESTS\SnapX\RegressionOutpurs\Reports\report.sta
+				D:\Joro\GIT_Automations\AutomationOutputs\Reports\report.sta
 			</filename>
 			<workingdir>
 				D:\Joro\AUTOMATION\TESTS\SnapX\RegressionOutpurs\Reports
@@ -3620,7 +3620,7 @@ igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAP/Z
 			<bindings>
 			</bindings>
 			<filename>
-				D:\Joro\AUTOMATION\TESTS\SnapX\RegressionOutpurs\Reports\print.PRT
+				D:\Joro\GIT_Automations\AutomationOutputs\Reports\print.PRT
 			</filename>
 			<workingdir>
 				D:\Joro\AUTOMATION\TESTS\SnapX\RegressionOutpurs\Reports
@@ -4665,7 +4665,7 @@ Position          mm    +0.0000       +0.0000       +0.0200                +0.00
 			<bindings>
 			</bindings>
 			<filename>
-				D:\Joro\AUTOMATION\TESTS\SnapX\RegressionOutpurs\Reports\export.sta
+				D:\Joro\GIT_Automations\AutomationOutputs\Reports\export.sta
 			</filename>
 			<workingdir>
 				D:\Joro\AUTOMATION\TESTS\SnapX\RegressionOutpurs\Reports
@@ -6286,7 +6286,7 @@ END!&#10;
 			<bindings>
 			</bindings>
 			<filename>
-				D:\Joro\AUTOMATION\TESTS\SnapX\RegressionOutpurs\Reports\datastream.dat
+				D:\Joro\GIT_Automations\AutomationOutputs\Reports\datastream.dat
 			</filename>
 			<workingdir>
 				D:\Joro\AUTOMATION\TESTS\SnapX\RegressionOutpurs\Reports
@@ -6320,7 +6320,7 @@ END!&#10;
 		action="AttributeEqual"
 		duration="100ms"
 		enabled="True"
-		optional="False"
+		optional="True"
 		searchpropertyid="7c4d5e42-0751-4acb-a83d-b531b838b941">
 			<comment>
 			</comment>
@@ -6742,6 +6742,871 @@ igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAP/Z
 			sourcename="ItemRecorderEditor">
 				<path>
 					/form[@title='datastream.dat - Notepad']/text[@controlid='15']
+				</path>
+			</info>
+		</closeapprecorditem>
+		<explicitdelayitem
+		duration="1000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<filename>
+				D:\Joro\GIT_Automations\AutomationOutputs\Reports\excel.xls
+			</filename>
+			<workingdir>
+				D:\Joro\GIT_Automations\AutomationOutputs\Reports
+			</workingdir>
+			<args>
+			</args>
+		</runapprecorditem>
+		<invokeactionrecorditem
+		action="Maximize"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="c85b1bcc-34a5-4b4f-a16f-bf32b9693eb8"
+		varname="">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="ad4acfd6-006c-41da-945d-dc2ddbcbaf1c"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/form[@title='excel.xls - Notepad']
+				</path>
+			</info>
+			<arguments
+			id="6f997861-97e2-4127-91e6-6656effcbd5a">
+			</arguments>
+		</invokeactionrecorditem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="9a1fe72e-6606-4997-a67c-44005e372cac">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="dbee7f26-4aa0-4689-92fa-d88fc765622b"
+			sourcename="ElementTree">
+				<element
+				capabilities="nativewindow"
+				dontcache="False"
+				enabled="True"
+				flavor="win32"
+				hasfocus="False"
+				index="0"
+				prefcap="text"
+				rect="0,42,1920,998"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="selectionlength"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="selectionstart"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						X +5.0000
+Y +5.0000
+POS +0.0000
+X +40.0000
+Y +5.0000
+POS +0.0000
+ANG +270.0000
+X +0.0000
+Y +2.5000
+STR +0.0000
+DST +0.0000
+PER +0.0000
+PAR +0.0000
+PRP +0.0000
+PRM +0.0000
+ANG +180.0000
+X +2.5000
+Y +5.0000
+STR +0.0000
+DST +5.0000
+PER +0.0000
+PAR +0.0000
+PRP +0.0000
+PRM +0.0000
+ANG +270.0000
+X +5.0000
+Y +2.5000
+STR +0.0000
+DST +0.0000
+PER +0.0000
+PAR +0.0000
+PRP +0.0000
+PRM +0.0000
+ANG +72.6460
+X +11.2500
+Y +4.0000
+STR +0.0000
+DST +0.0000
+PER +0.0000
+PAR +0.0000
+PRP +0.0000
+PRM +0.0000
+ANG +287.3540
+X +13.7500
+Y +4.0000
+STR +0.0000
+DST +4.7724
+PER +0.0000
+PAR +0.0000
+PRP +0.0000
+PRM +0.0000
+DIA +7.0711
+X +22.5000
+Y +2.5000
+RND +0.0000
+POS +0.0000
+CON +0.0000
+PRP +0.0000
+PRM +0.0000
+ANG +0.0000
+X +7.5000
+Y +0.0000
+STR +0.0000
+DST +14.3172
+PER +0.0000
+PAR +0.0000
+PRP +0.0000
+PRM +0.0000
+DIA +12.0416
+X +22.0000
+Y +2.5000
+RND +0.0000
+POS +0.0000
+CON +1.0000
+PRP +0.0000
+PRM +0.0000
+XD +0.0000
+YD +5.0000
+DIS +5.0000
+ANG +90.0000
+DIS +5.0000
+X +32.5000
+Y +5.0000
+POS +0.0000
+ANG +45.0000
+X +0.0000
+Y +25.0000
+POS +0.0000
+ANG +270.0000
+X +0.0000
+Y +25.0000
+POS +0.0000
+ANG +90.0000
+X +0.0000
+Y +25.0000
+POS +0.0000
+ANG +270.0000
+X +0.0000
+Y +25.0000
+POS +0.0000
+WCA +90.0000
+WID +5.0000
+X +12.5000
+Y +25.0000
+POS +0.0000
+WCA +90.0000
+WID +5.0000
+X +12.5000
+Y +20.0000
+POS +0.0000
+X +21.0000
+Y +24.0000
+POS +0.0000
+X +19.0000
+Y +26.0000
+POS +0.0000
+X +19.0000
+Y +24.0000
+POS +0.0000
+X +21.0000
+Y +26.0000
+POS +0.0000
+ARE +25.0000
+LEN +15.0000
+X +30.0000
+Y +25.0000
+POS +0.0000
+RES +12.0416
+X +27.4772
+Y +0.0000
+POS +0.0000
+X +16.5228
+Y +5.0000
+POS +0.0000
+ARE +50.0000
+LEN +25.0000
+X +40.0000
+Y +5.0000
+POS +0.0000&#10;
+					</attribute>
+					<attribute
+					name="apphung"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="class"
+					type="System.String">
+						Edit
+					</attribute>
+					<attribute
+					name="controlid"
+					type="System.Int32">
+						15
+					</attribute>
+					<attribute
+					name="handle"
+					type="System.IntPtr">
+						3280170
+					</attribute>
+					<attribute
+					name="instance"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						1040
+					</attribute>
+					<attribute
+					name="processname"
+					type="System.String">
+						notepad
+					</attribute>
+					<attribute
+					name="windowextendedstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Culture=neutral">
+						RightScrollBar, Left, ClientEdge
+					</attribute>
+					<attribute
+					name="windowstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Culture=neutral">
+						Tiled, HorizontalScrollBar, VerticalScrollBar, Visible, ChildWindow
+					</attribute>
+					<attribute
+					name="windowtext"
+					type="System.String">
+						X +5.0000
+Y +5.0000
+POS +0.0000
+X +40.0000
+Y +5.0000
+POS +0.0000
+ANG +270.0000
+X +0.0000
+Y +2.5000
+STR +0.0000
+DST +0.0000
+PER +0.0000
+PAR +0.0000
+PRP +0.0000
+PRM +0.0000
+ANG +180.0000
+X +2.5000
+Y +5.0000
+STR +0.0000
+DST +5.0000
+PER +0.0000
+PAR +0.0000
+PRP +0.0000
+PRM +0.0000
+ANG +270.0000
+X +5.0000
+Y +2.5000
+STR +0.0000
+DST +0.0000
+PER +0.0000
+PAR +0.0000
+PRP +0.0000
+PRM +0.0000
+ANG +72.6460
+X +11.2500
+Y +4.0000
+STR +0.0000
+DST +0.0000
+PER +0.0000
+PAR +0.0000
+PRP +0.0000
+PRM +0.0000
+ANG +287.3540
+X +13.7500
+Y +4.0000
+STR +0.0000
+DST +4.7724
+PER +0.0000
+PAR +0.0000
+PRP +0.0000
+PRM +0.0000
+DIA +7.0711
+X +22.5000
+Y +2.5000
+RND +0.0000
+POS +0.0000
+CON +0.0000
+PRP +0.0000
+PRM +0.0000
+ANG +0.0000
+X +7.5000
+Y +0.0000
+STR +0.0000
+DST +14.3172
+PER +0.0000
+PAR +0.0000
+PRP +0.0000
+PRM +0.0000
+DIA +12.0416
+X +22.0000
+Y +2.5000
+RND +0.0000
+POS +0.0000
+CON +1.0000
+PRP +0.0000
+PRM +0.0000
+XD +0.0000
+YD +5.0000
+DIS +5.0000
+ANG +90.0000
+DIS +5.0000
+X +32.5000
+Y +5.0000
+POS +0.0000
+ANG +45.0000
+X +0.0000
+Y +25.0000
+POS +0.0000
+ANG +270.0000
+X +0.0000
+Y +25.0000
+POS +0.0000
+ANG +90.0000
+X +0.0000
+Y +25.0000
+POS +0.0000
+ANG +270.0000
+X +0.0000
+Y +25.0000
+POS +0.0000
+WCA +90.0000
+WID +5.0000
+X +12.5000
+Y +25.0000
+POS +0.0000
+WCA +90.0000
+WID +5.0000
+X +12.5000
+Y +20.0000
+POS +0.0000
+X +21.0000
+Y +24.0000
+POS +0.0000
+X +19.0000
+Y +26.0000
+POS +0.0000
+X +19.0000
+Y +24.0000
+POS +0.0000
+X +21.0000
+Y +26.0000
+POS +0.0000
+ARE +25.0000
+LEN +15.0000
+X +30.0000
+Y +25.0000
+POS +0.0000
+RES +12.0416
+X +27.4772
+Y +0.0000
+POS +0.0000
+X +16.5228
+Y +5.0000
+POS +0.0000
+ARE +50.0000
+LEN +25.0000
+X +40.0000
+Y +5.0000
+POS +0.0000&#10;
+					</attribute>
+					<dynamicattribute
+					description="The default action of the accessible object."
+					name="AccessibleDefaultAction"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The description of the accessible object."
+					name="AccessibleDescription"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The help string of the accessible object."
+					name="AccessibleHelp"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The filename and topic identifier of the associated WinHelp file for the accessible object."
+					name="AccessibleHelpTopic"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The keyboard shortcut of the accessible object."
+					name="AccessibleKeyboardShortcut"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The name of the accessible object."
+					name="AccessibleName"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The role of the accessible object."
+					name="AccessibleRole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Text
+					</dynamicattribute>
+					<dynamicattribute
+					description="The state of the accessible object."
+					name="AccessibleState"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Focusable
+					</dynamicattribute>
+					<dynamicattribute
+					description="The value of the accessible object."
+					name="AccessibleValue"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+						X +5.0000
+Y +5.0000
+POS +0.0000
+X +40.0000
+Y +5.0000
+POS +0.0000
+ANG +270.0000
+X +0.0000
+Y +2.5000
+STR +0.0000
+DST +0.0000
+PER +0.0000
+PAR +0.0000
+PRP +0.0000
+PRM +0.0000
+ANG +180.0000
+X +2.5000
+Y +5.0000
+STR +0.0000
+DST +5.0000
+PER +0.0000
+PAR +0.0000
+PRP +0.0000
+PRM +0.0000
+ANG +270.0000
+X +5.0000
+Y +2.5000
+STR +0.0000
+DST +0.0000
+PER +0.0000
+PAR +0.0000
+PRP +0.0000
+PRM +0.0000
+ANG +72.6460
+X +11.2500
+Y +4.0000
+STR +0.0000
+DST +0.0000
+PER +0.0000
+PAR +0.0000
+PRP +0.0000
+PRM +0.0000
+ANG +287.3540
+X +13.7500
+Y +4.0000
+STR +0.0000
+DST +4.7724
+PER +0.0000
+PAR +0.0000
+PRP +0.0000
+PRM +0.0000
+DIA +7.0711
+X +22.5000
+Y +2.5000
+RND +0.0000
+POS +0.0000
+CON +0.0000
+PRP +0.0000
+PRM +0.0000
+ANG +0.0000
+X +7.5000
+Y +0.0000
+STR +0.0000
+DST +14.3172
+PER +0.0000
+PAR +0.0000
+PRP +0.0000
+PRM +0.0000
+DIA +12.0416
+X +22.0000
+Y +2.5000
+RND +0.0000
+POS +0.0000
+CON +1.0000
+PRP +0.0000
+PRM +0.0000
+XD +0.0000
+YD +5.0000
+DIS +5.0000
+ANG +90.0000
+DIS +5.0000
+X +32.5000
+Y +5.0000
+POS +0.0000
+ANG +45.0000
+X +0.0000
+Y +25.0000
+POS +0.0000
+ANG +270.0000
+X +0.0000
+Y +25.0000
+POS +0.0000
+ANG +90.0000
+X +0.0000
+Y +25.0000
+POS +0.0000
+ANG +270.0000
+X +0.0000
+Y +25.0000
+POS +0.0000
+WCA +90.0000
+WID +5.0000
+X +12.5000
+Y +25.0000
+POS +0.0000
+WCA +90.0000
+WID +5.0000
+X +12.5000
+Y +20.0000
+POS +0.0000
+X +21.0000
+Y +24.0000
+POS +0.0000
+X +19.0000
+Y +26.0000
+POS +0.0000
+X +19.0000
+Y +24.0000
+POS +0.0000
+X +21.0000
+Y +26.0000
+POS +0.0000
+ARE +25.0000
+LEN +15.0000
+X +30.0000
+Y +25.0000
+POS +0.0000
+RES +12.0416
+X +27.4772
+Y +0.0000
+POS +0.0000
+X +16.5228
+Y +5.0000
+POS +0.0000
+ARE +50.0000
+LEN +25.0000
+X +40.0000
+Y +5.0000
+POS +0.0000&#10;
+					</dynamicattribute>
+					<dynamicaction
+					description="Invokes the default action of the accessible object."
+					displayName="AccessibleDoDefaultAction">
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@title='excel.xls - Notepad']/text[@controlid='15']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="82593da8-2be2-4d39-bc6a-57ddf7712dbb">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAH0AfQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAP/Z
+			</helperscreenshot>
+			<matchname>
+				WindowText
+			</matchname>
+			<matchvalue>
+				X +5.0000
+Y +5.0000
+POS +0.0000
+X +40.0000
+Y +5.0000
+POS +0.0000
+ANG +270.0000
+X +0.0000
+Y +2.5000
+STR +0.0000
+DST +0.0000
+PER +0.0000
+PAR +0.0000
+PRP +0.0000
+PRM +0.0000
+ANG +180.0000
+X +2.5000
+Y +5.0000
+STR +0.0000
+DST +5.0000
+PER +0.0000
+PAR +0.0000
+PRP +0.0000
+PRM +0.0000
+ANG +270.0000
+X +5.0000
+Y +2.5000
+STR +0.0000
+DST +0.0000
+PER +0.0000
+PAR +0.0000
+PRP +0.0000
+PRM +0.0000
+ANG +72.6460
+X +11.2500
+Y +4.0000
+STR +0.0000
+DST +0.0000
+PER +0.0000
+PAR +0.0000
+PRP +0.0000
+PRM +0.0000
+ANG +287.3540
+X +13.7500
+Y +4.0000
+STR +0.0000
+DST +4.7724
+PER +0.0000
+PAR +0.0000
+PRP +0.0000
+PRM +0.0000
+DIA +7.0711
+X +22.5000
+Y +2.5000
+RND +0.0000
+POS +0.0000
+CON +0.0000
+PRP +0.0000
+PRM +0.0000
+ANG +0.0000
+X +7.5000
+Y +0.0000
+STR +0.0000
+DST +14.3172
+PER +0.0000
+PAR +0.0000
+PRP +0.0000
+PRM +0.0000
+DIA +12.0416
+X +22.0000
+Y +2.5000
+RND +0.0000
+POS +0.0000
+CON +1.0000
+PRP +0.0000
+PRM +0.0000
+XD +0.0000
+YD +5.0000
+DIS +5.0000
+ANG +90.0000
+DIS +5.0000
+X +32.5000
+Y +5.0000
+POS +0.0000
+ANG +45.0000
+X +0.0000
+Y +25.0000
+POS +0.0000
+ANG +270.0000
+X +0.0000
+Y +25.0000
+POS +0.0000
+ANG +90.0000
+X +0.0000
+Y +25.0000
+POS +0.0000
+ANG +270.0000
+X +0.0000
+Y +25.0000
+POS +0.0000
+WCA +90.0000
+WID +5.0000
+X +12.5000
+Y +25.0000
+POS +0.0000
+WCA +90.0000
+WID +5.0000
+X +12.5000
+Y +20.0000
+POS +0.0000
+X +21.0000
+Y +24.0000
+POS +0.0000
+X +19.0000
+Y +26.0000
+POS +0.0000
+X +19.0000
+Y +24.0000
+POS +0.0000
+X +21.0000
+Y +26.0000
+POS +0.0000
+ARE +25.0000
+LEN +15.0000
+X +30.0000
+Y +25.0000
+POS +0.0000
+RES +12.0416
+X +27.4772
+Y +0.0000
+POS +0.0000
+X +16.5228
+Y +5.0000
+POS +0.0000
+ARE +50.0000
+LEN +25.0000
+X +40.0000
+Y +5.0000
+POS +0.0000&#10;
+			</matchvalue>
+		</validationitem>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="658bc20c-9a71-436c-8ab5-214d5136e10a">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="dbee7f26-4aa0-4689-92fa-d88fc765622b"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/form[@title='excel.xls - Notepad']/text[@controlid='15']
 				</path>
 			</info>
 		</closeapprecorditem>

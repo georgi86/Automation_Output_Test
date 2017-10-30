@@ -67,6 +67,7 @@ D:\Joro\GIT_Automations\AutomationOutputs\Outputs\Outputs\bin\Debug\Outputs.rxtm
 D:\Joro\GIT_Automations\AutomationOutputs\Outputs\Outputs\bin\Debug\Outputs.rxtst
 D:\Joro\GIT_Automations\AutomationOutputs\Outputs\Outputs\bin\Debug\Outputs.exe
 D:\Joro\GIT_Automations\AutomationOutputs\Outputs\Outputs\bin\Debug\Outputs.pdb
+D:\Joro\GIT_Automations\AutomationOutputs\Outputs\Outputs\obj\x86\Debug\Outputs.csprojResolveAssemblyReference.cache
 D:\Joro\GIT_Automations\AutomationOutputs\Outputs\Outputs\bin\Debug\Ranorex.Core.dll
 D:\Joro\GIT_Automations\AutomationOutputs\Outputs\Outputs\bin\Debug\Ranorex.Plugin.Cef.dll
 D:\Joro\GIT_Automations\AutomationOutputs\Outputs\Outputs\bin\Debug\Ranorex.Plugin.ChromeWeb.dll
@@ -121,4 +122,3 @@ D:\Joro\GIT_Automations\AutomationOutputs\Outputs\Outputs\bin\Debug\Ranorex.Plug
 D:\Joro\GIT_Automations\AutomationOutputs\Outputs\Outputs\bin\Debug\Ranorex.Plugin.Win32.xml
 D:\Joro\GIT_Automations\AutomationOutputs\Outputs\Outputs\bin\Debug\Ranorex.Plugin.WinForms.xml
 D:\Joro\GIT_Automations\AutomationOutputs\Outputs\Outputs\bin\Debug\Ranorex.Plugin.Wpf.xml
-D:\Joro\GIT_Automations\AutomationOutputs\Outputs\Outputs\obj\x86\Debug\Outputs.csprojResolveAssemblyReference.cache

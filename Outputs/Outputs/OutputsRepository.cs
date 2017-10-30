@@ -34,6 +34,7 @@ namespace Outputs
         OutputsRepositoryFolders.PrintPRTNotepadAppFolder _printprtnotepad;
         OutputsRepositoryFolders.ExportStaNotepadAppFolder _exportstanotepad;
         OutputsRepositoryFolders.DatastreamDatNotepadAppFolder _datastreamdatnotepad;
+        OutputsRepositoryFolders.ExcelXlsNotepadAppFolder _excelxlsnotepad;
 
         /// <summary>
         /// Gets the singleton class instance representing the OutputsRepository element repository.
@@ -57,6 +58,7 @@ namespace Outputs
             _printprtnotepad = new OutputsRepositoryFolders.PrintPRTNotepadAppFolder(this);
             _exportstanotepad = new OutputsRepositoryFolders.ExportStaNotepadAppFolder(this);
             _datastreamdatnotepad = new OutputsRepositoryFolders.DatastreamDatNotepadAppFolder(this);
+            _excelxlsnotepad = new OutputsRepositoryFolders.ExcelXlsNotepadAppFolder(this);
         }
 
 #region Variables
@@ -136,6 +138,15 @@ namespace Outputs
         public virtual OutputsRepositoryFolders.DatastreamDatNotepadAppFolder DatastreamDatNotepad
         {
             get { return _datastreamdatnotepad; }
+        }
+
+        /// <summary>
+        /// The ExcelXlsNotepad folder.
+        /// </summary>
+        [RepositoryFolder("ad4acfd6-006c-41da-945d-dc2ddbcbaf1c")]
+        public virtual OutputsRepositoryFolders.ExcelXlsNotepadAppFolder ExcelXlsNotepad
+        {
+            get { return _excelxlsnotepad; }
         }
     }
 
@@ -676,6 +687,72 @@ namespace Outputs
             /// The Text15 item info.
             /// </summary>
             [RepositoryItemInfo("a0701b51-574a-4b79-80e2-b20b683493a8")]
+            public virtual RepoItemInfo Text15Info
+            {
+                get
+                {
+                    return _text15Info;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The ExcelXlsNotepadAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("ad4acfd6-006c-41da-945d-dc2ddbcbaf1c")]
+        public partial class ExcelXlsNotepadAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _text15Info;
+
+            /// <summary>
+            /// Creates a new ExcelXlsNotepad  folder.
+            /// </summary>
+            public ExcelXlsNotepadAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("ExcelXlsNotepad", "/form[@title='excel.xls - Notepad']", parentFolder, 30000, null, true, "ad4acfd6-006c-41da-945d-dc2ddbcbaf1c", "")
+            {
+                _text15Info = new RepoItemInfo(this, "Text15", "text[@controlid='15']", 30000, null, "dbee7f26-4aa0-4689-92fa-d88fc765622b");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("ad4acfd6-006c-41da-945d-dc2ddbcbaf1c")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("ad4acfd6-006c-41da-945d-dc2ddbcbaf1c")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Text15 item.
+            /// </summary>
+            [RepositoryItem("dbee7f26-4aa0-4689-92fa-d88fc765622b")]
+            public virtual Ranorex.Text Text15
+            {
+                get
+                {
+                    return _text15Info.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Text15 item info.
+            /// </summary>
+            [RepositoryItemInfo("dbee7f26-4aa0-4689-92fa-d88fc765622b")]
             public virtual RepoItemInfo Text15Info
             {
                 get
