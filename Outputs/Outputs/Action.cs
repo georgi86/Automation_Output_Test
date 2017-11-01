@@ -168,29 +168,28 @@ namespace Outputs
 
                 for (int i = 0; i < iStatisticsLines; i++)
                 {
-                  bool bStatisticsLineAreSame = ReadHardcodedStatistics[i].Equals(ReadStatistics[i]);
+                    bool bStatisticsLineAreSame = ReadHardcodedStatistics[i].Equals(ReadStatistics[i]);
 
-                  if (!bStatisticsLineAreSame)
-                  {
+                    if (!bStatisticsLineAreSame)
+                    {
 
-                    Ranorex.Report.Error("Actual statistics values", ReadStatistics[i]);
-                    Ranorex.Report.Error("Error", "The line has wrong value. It should be:");
-                    Ranorex.Report.Error("HardCoded statistics values", ReadHardcodedStatistics[i]);
+                        Ranorex.Report.Error("Actual statistics values", ReadStatistics[i]);
+                        Ranorex.Report.Error("Error", "The line has wrong value. It should be:");
+                        Ranorex.Report.Error("HardCoded statistics values", ReadHardcodedStatistics[i]);
 
-                    bStatisticsOK = false;
-                  }
+                        bStatisticsOK = false;
+                    }
 
                 }  // for (int i = 0; i < iLines; i++)
 
                 if (bStatisticsOK)
                 {
-                  {
-                    Ranorex.Report.Success("The Statistics test was sucessfully performed");
-                  }
+                    {
+                        Ranorex.Report.Success("The Statistics test was sucessfully performed");
+                    }
                 }
                 
-        
-        Delay.Milliseconds(100);
+                Delay.Milliseconds(100);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(19)); }
             
             Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'StatisticSTANotepad.Text15'.", repo.StatisticSTANotepad.Text15Info, new RecordItemIndex(20));
@@ -210,7 +209,6 @@ namespace Outputs
             
             try {
                 Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (WindowText=' |+40.000|+0.000|+0.000|+40.000|1|20| mm|Point|||X\r\n |+5.000|+0.000|+0.000|+5.000|1|20| mm|Point|||Y\r\n |+0.000|+0.000||+0.000|1|20| mm|Point|||POS\r\n |+270.000|+0.020|-0.020|+270.000|1|45| dd|Line|||ANG\r\n |+0.000|+0.030|-0.030|+0.000|1|45| mm|Line|||X\r\n |+2.500|+0.040|-0.040|+2.500|1|45| mm|Line|||Y\r\n |+0.000|+0.050||+0.000|1|45| mm|Line|||STR\r\n |+0.000|+0.040||+0.000|1|45| mm|Line|||DST\r\n |+0.000|+0.060||+0.000|1|45| mm|Line|||PER\r\n |+0.000|+0.070||+0.000|1|45| mm|Line|||PAR\r\n |+0.000|+0.090||+0.000|1|45| mm|Line|||PRP\r\n |+0.000||-0.080|+0.000|1|45| mm|Line|||PRM\r\n |+180.000|+0.020|-0.020|+180.000|1|46| dd|Line|||ANG\r\n |+2.500|+0.030|-0.030|+2.500|1|46| mm|Line|||X\r\n |+5.000|+0.040|-0.040|+5.000|1|46| mm|Line|||Y\r\n |+0.000|+0.050||+0.000|1|46| mm|Line|||STR\r\n |+0.000|+5.004||+5.000|1|46| mm|Line|||DST\r\n |+0.000|+0.060||+0.000|1|46| mm|Line|||PER\r\n |+0.000|+0.070||+0.000|1|46| mm|Line|||PAR\r\n |+0.000|+0.090||+0.000|1|46| mm|Line|||PRP\r\n |+0.000||-0.080|+0.000|1|46| mm|Line|||PRM\r\n |+270.000|+0.020|-0.020|+270.000|1|47| dd|Line|||ANG\r\n |+5.000|+0.030|-0.030|+5.000|1|47| mm|Line|||X\r\n |+2.500|+0.040|-0.040|+2.500|1|47| mm|Line|||Y\r\n |+0.000|+0.050||+0.000|1|47| mm|Line|||STR\r\n |+0.000|+0.040||+0.000|1|47| mm|Line|||DST\r\n |+0.000|+0.060||+0.000|1|47| mm|Line|||PER\r\n |+0.000|+0.010||+0.000|1|47| mm|Line|||PAR\r\n |+0.000|+0.090||+0.000|1|47| mm|Line|||PRP\r\n |+0.000||-0.080|+0.000|1|47| mm|Line|||PRM\r\n |+72.646|+0.020|-0.020|+72.646|1|49| dd|Line|||ANG\r\n |+11.250|+0.030|-0.030|+11.250|1|49| mm|Line|||X\r\n |+4.000|+0.040|-0.040|+4.000|1|49| mm|Line|||Y\r\n |+0.000|+0.050||+0.000|1|49| mm|Line|||STR\r\n |+0.000|+0.040||+0.000|1|49| mm|Line|||DST\r\n |+0.000|+0.060||+0.000|1|49| mm|Line|||PER\r\n |+0.000|+0.010||+0.000|1|49| mm|Line|||PAR\r\n |+0.000|+0.090||+0.000|1|49| mm|Line|||PRP\r\n |+0.000||-0.080|+0.000|1|49| mm|Line|||PRM\r\n |+287.354|+0.020|-0.020|+287.354|1|50| dd|Line|||ANG\r\n |+13.750|+0.030|-0.030|+13.750|1|50| mm|Line|||X\r\n |+4.000|+0.040|-0.040|+4.000|1|50| mm|Line|||Y\r\n |+0.000|+0.050||+0.000|1|50| mm|Line|||STR\r\n |+0.000|+4.780||+4.772|1|50| mm|Line|||DST\r\n |+0.000|+0.060||+0.000|1|50| mm|Line|||PER\r\n |+0.000|+0.010||+0.000|1|50| mm|Line|||PAR\r\n |+0.000|+0.090||+0.000|1|50| mm|Line|||PRP\r\n |+0.000||-0.080|+0.000|1|50| mm|Line|||PRM\r\n |+7.071|+0.020|-0.020|+7.071|1|51| mm|Circle|||DIA\r\n |+22.500|+0.040|-0.040|+22.500|1|51| mm|Circle|||X\r\n |+2.500|+0.060|-0.060|+2.500|1|51| mm|Circle|||Y\r\n |+0.000|+0.010||+0.000|1|51| mm|Circle|||RND\r\n |+0.000|+0.020||+0.000|1|51| mm|Circle|||POS\r\n |+0.000|+0.030||+0.000|1|51| mm|Circle|||CON\r\n |+0.000|+0.090||+0.000|1|51| mm|Circle|||PRP\r\n |+0.000||-0.080|+0.000|1|51| mm|Circle|||PRM\r\n |+0.000|+0.020|-0.020|+0.000|1|52| dd|Line|||ANG\r\n |+7.500|+0.030|-0.030|+7.500|1|52| mm|Line|||X\r\n |+0.000|+0.040|-0.040|+0.000|1|52| mm|Line|||Y\r\n |+0.000|+0.050||+0.000|1|52| mm|Line|||STR\r\n |+0.000|+14.322||+14.317|1|52| mm|Line|||DST\r\n |+0.000|+0.060||+0.000|1|52| mm|Line|||PER\r\n |+0.000|+0.070||+0.000|1|52| mm|Line|||PAR\r\n |+0.000|+0.090||+0.000|1|52| mm|Line|||PRP\r\n |+0.000||-0.080|+0.000|1|52| mm|Line|||PRM\r\n |+12.042|+0.020|-0.020|+12.042|1|57| mm|Circle|||DIA\r\n |+22.000|+0.040|-0.040|+22.000|1|57| mm|Circle|||X\r\n |+2.500|+0.060|-0.060|+2.500|1|57| mm|Circle|||Y\r\n |+0.000|+0.010||+0.000|1|57| mm|Circle|||RND\r\n |+0.000|+0.020||+0.000|1|57| mm|Circle|||POS\r\n |+0.000|+1.005||+1.000|1|57| mm|Circle|||CON\r\n |+0.000|+0.090||+0.000|1|57| mm|Circle|||PRP\r\n |+0.000||-0.080|+0.000|1|57| mm|Circle|||PRM\r\n |+0.000|+0.020|-0.020|+0.000|1|58| mm|Distance|||XD\r\n |+5.000|+0.040|-0.040|+5.000|1|58| mm|Distance|||YD\r\n |+5.000|+0.070|-0.070|+5.000|1|58| mm|Distance|||DIS\r\n |+90.000|+0.080|-0.080|+90.000|1|58| dd|Distance|||ANG\r\n |+5.000|+0.090|-0.090|+5.000|1|59| mm|Midpoint|||DIS\r\n |+32.500|+0.004|-0.004|+32.500|1|59| mm|Midpoint|||X\r\n |+5.000|+0.005|-0.005|+5.000|1|59| mm|Midpoint|||Y\r\n |+0.000|+0.020||+0.000|1|59| mm|Midpoint|||POS\r\n |+45.000|+0.020|-0.020|+45.000|1|63| dd|Intersect|||ANG\r\n |+0.000|+0.050|-0.050|+0.000|1|63| mm|Intersect|||X\r\n |+25.000|+0.007|-0.007|+25.000|1|63| mm|Intersect|||Y\r\n |+0.000|+0.020||+0.000|1|63| mm|Intersect|||POS\r\n |+270.000|+0.020|-0.020|+270.000|1|64| dd|Intersect|||ANG\r\n |+0.000|+0.050|-0.050|+0.000|1|64| mm|Intersect|||X\r\n |+25.000|+0.007|-0.007|+25.000|1|64| mm|Intersect|||Y\r\n |+0.000|+0.020||+0.000|1|64| mm|Intersect|||POS\r\n |+90.000|+0.020|-0.020|+90.000|1|65| dd|Intersect|||ANG\r\n |+0.000|+0.050|-0.050|+0.000|1|65| mm|Intersect|||X\r\n |+25.000|+0.007|-0.007|+25.000|1|65| mm|Intersect|||Y\r\n |+0.000|+0.020||+0.000|1|65| mm|Intersect|||POS\r\n |+270.000|+0.020|-0.020|+270.000|1|66| dd|Intersect|||ANG\r\n |+0.000|+0.050|-0.050|+0.000|1|66| mm|Intersect|||X\r\n |+25.000|+0.007|-0.007|+25.000|1|66| mm|Intersect|||Y\r\n |+0.000|+0.020||+0.000|1|66| mm|Intersect|||POS\r\n |+90.000|+0.020|-0.020|+90.000|1|67| dd|Width|||WCA\r\n |+5.000|+0.020|-0.020|+5.000|1|67| mm|Width|||WID\r\n |+12.500|+0.050|-0.050|+12.500|1|67| mm|Width|||X\r\n |+25.000|+0.060|-0.060|+25.000|1|67| mm|Width|||Y\r\n |+0.000|+0.020||+0.000|1|67| mm|Width|||POS\r\n |+90.000|+0.020|-0.020|+90.000|1|68| dd|Width|||WCA\r\n |+5.000|+0.020|-0.020|+5.000|1|68| mm|Width|||WID\r\n |+12.500|+0.050|-0.050|+12.500|1|68| mm|Width|||X\r\n |+20.000|+0.060|-0.060|+20.000|1|68| mm|Width|||Y\r\n |+0.000|+0.020||+0.000|1|68| mm|Width|||POS\r\n |+21.000|+0.006|-0.006|+21.000|1|71| mm|Gage Ball|||X\r\n |+24.000|+0.009|-0.009|+24.000|1|71| mm|Gage Ball|||Y\r\n |+0.000|+0.020||+0.000|1|71| mm|Gage Ball|||POS\r\n |+19.000|+0.006|-0.006|+19.000|1|72| mm|Gage Ball|||X\r\n |+26.000|+0.009|-0.009|+26.000|1|72| mm|Gage Ball|||Y\r\n |+0.000|+0.020||+0.000|1|72| mm|Gage Ball|||POS\r\n |+19.000|+0.006|-0.006|+19.000|1|73| mm|Gage Ball|||X\r\n |+24.000|+0.009|-0.009|+24.000|1|73| mm|Gage Ball|||Y\r\n |+0.000|+0.020||+0.000|1|73| mm|Gage Ball|||POS\r\n |+21.000|+0.006|-0.006|+21.000|1|74| mm|Gage Ball|||X\r\n |+26.000|+0.009|-0.009|+26.000|1|74| mm|Gage Ball|||Y\r\n |+0.000|+0.020||+0.000|1|74| mm|Gage Ball|||POS\r\n |+25.000|+0.200|-0.200|+25.000|1|75| mm|Contour|||ARE\r\n |+15.000|+0.040|-0.040|+15.000|1|75| mm|Contour|||LEN\r\n |+30.000|+0.050|-0.050|+30.000|1|75| mm|Contour|||X\r\n |+25.000|+0.006|-0.006|+25.000|1|75| mm|Contour|||Y\r\n |+0.000|+0.020||+0.000|1|75| mm|Contour|||POS\r\n |+12.042|+0.050|-0.050|+12.042|1|76| mm|Math|||RES\r\n |+27.477|+0.050|-0.050|+27.477|1|77| mm|Intersect|||X\r\n |+0.000|+0.007|-0.007|+0.000|1|77| mm|Intersect|||Y\r\n |+0.000|+0.020||+0.000|1|77| mm|Intersect|||POS\r\n |+5.000|+0.007|-0.007|+5.000|1|78| mm|Intersect|||Y\r\n |+0.000|+0.020||+0.000|1|78| mm|Intersect|||POS\r\n |+50.000|+0.200|-0.200|+50.000|1|79| mm|Contour|||ARE\r\n |+25.000|+0.040|-0.040|+25.000|1|79| mm|Contour|||LEN\r\n |+40.000|+0.050|-0.050|+40.000|1|79| mm|Contour|||X\r\n |+5.000|+0.006|-0.006|+5.000|1|79| mm|Contour|||Y\r\n |+0.000|+0.020||+0.000|1|79| mm|Contour|||POS\r\n') on item 'ReportStaNotepad.Text15'.", repo.ReportStaNotepad.Text15Info, new RecordItemIndex(24));
-
                 string report = ((Outputs.OutputsRepositoryFolders.ReportStaNotepadAppFolder)repo.ReportStaNotepad.Text15Info.ParentFolder).Text15.TextValue;
                 string[] ReadReport = Regex.Split(report, "[\r\n]+");
 
@@ -223,34 +221,34 @@ namespace Outputs
 
                 for (int i = 0; i < iReportLines; i++)
                 {
-                  bool bReportLineAreSame = ReadHardcodedReport[i].Equals(ReadReport[i]);
+                    bool bReportLineAreSame = ReadHardcodedReport[i].Equals(ReadReport[i]);
 
 
-                  if (!bReportLineAreSame)
-                  {
+                    if (!bReportLineAreSame)
+                    {
 
-                    Ranorex.Report.Error("Specific Category", ReadReport[i]);
-                    Ranorex.Report.Error("Specific Category", "The line has wrong value. It should be:");
-                    Ranorex.Report.Error("Specific Category", ReadHardcodedReport[i]);
+                        Ranorex.Report.Error("Specific Category", ReadReport[i]);
+                        Ranorex.Report.Error("Specific Category", "The line has wrong value. It should be:");
+                        Ranorex.Report.Error("Specific Category", ReadHardcodedReport[i]);
 
-                    bReportOK = false;
+                        bReportOK = false;
 
 
-                    //Ranorex.Report.Info("This is a Information");
-                    //Ranorex.Report.Success("This is a success information");
-                    //Ranorex.Report.Failure("This is a failure Information");
-                  }
+                        //Ranorex.Report.Info("This is a Information");
+                        //Ranorex.Report.Success("This is a success information");
+                        //Ranorex.Report.Failure("This is a failure Information");
+                    }
 
                 }  // for (int i = 0; i < iLines; i++)
 
                 if (bReportOK)
                 {
-                  {
-                    Ranorex.Report.Success("The Report test was sucessfully performed");
-                  }
+                    {
+                        Ranorex.Report.Success("The Report test was sucessfully performed");
+                    }
                 }
                 
-         
+
                 Delay.Milliseconds(100);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(24)); }
             
@@ -271,7 +269,6 @@ namespace Outputs
             
             try {
                 Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (WindowText='Machine Serial Number:  SFD2001052                                                       Page:    1\r\n====================================================================================================\r\nRoutine Name                                                    Run #            Date & Time        \r\n====================================================================================================\r\nAllOutputTypes.mxy                                       1      Wednesday, October 18, 2017 16:05:44\r\n====================================================================================================\r\n\r\n====================================================================================================\r\nFeature           Unit    Nominal       Actual          Tolerances           Deviation     Exceeded \r\n====================================================================================================\r\nStep 13   \r\nX Location        mm    +5.0000       +5.0000       +0.0300     -0.0300    +0.0000                  \r\nY Location        mm    +5.0000       +5.0000       +0.0400     -0.0400    +0.0000                  \r\nPosition          mm    +0.0000       +0.0000       +0.0010                +0.0000                  \r\n   \r\nStep 20   \r\nX Location        mm    +40.0000      +40.0000      +0.0000     +0.0000    +0.0000                  \r\nY Location        mm    +5.0000       +5.0000       +0.0000     +0.0000    +0.0000                  \r\nPosition          mm    +0.0000       +0.0000       +0.0000                +0.0000                  \r\n   \r\nStep 45   \r\nAngle             dd    +270.0000     +270.0000     +0.0200     -0.0200    +0.0000                  \r\nX Location        mm    +0.0000       +0.0000       +0.0300     -0.0300    +0.0000                  \r\nY Location        mm    +2.5000       +2.5000       +0.0400     -0.0400    +0.0000                  \r\nStraightness      mm    +0.0000       +0.0000       +0.0500                +0.0000                  \r\nAngularity        mm    +0.0000       +0.0000       +0.0400                +0.0000                  \r\nPerpendicularity  mm    +0.0000       +0.0000       +0.0600                +0.0000                  \r\nParallelism       mm    +0.0000       +0.0000       +0.0700                +0.0000                  \r\nProfile +         mm    +0.0000       +0.0000       +0.0900                +0.0000                  \r\nProfile -         mm    +0.0000       +0.0000                   -0.0800    +0.0000                  \r\n   \r\nStep 46   \r\nAngle             dd    +180.0000     +180.0000     +0.0200     -0.0200    +0.0000                  \r\nX Location        mm    +2.5000       +2.5000       +0.0300     -0.0300    +0.0000                  \r\nY Location        mm    +5.0000       +5.0000       +0.0400     -0.0400    +0.0000                  \r\nStraightness      mm    +0.0000       +0.0000       +0.0500                +0.0000                  \r\nAngularity        mm    +0.0000       +5.0000       +5.0040                +5.0000      ++++        \r\nPerpendicularity  mm    +0.0000       +0.0000       +0.0600                +0.0000                  \r\nParallelism       mm    +0.0000       +0.0000       +0.0700                +0.0000                  \r\nProfile +         mm    +0.0000       +0.0000       +0.0900                +0.0000                  \r\nProfile -         mm    +0.0000       +0.0000                   -0.0800    +0.0000                  \r\n   \r\nStep 47   \r\nAngle             dd    +270.0000     +270.0000     +0.0200     -0.0200    +0.0000                  \r\nX Location        mm    +5.0000       +5.0000       +0.0300     -0.0300    +0.0000                  \r\nY Location        mm    +2.5000       +2.5000       +0.0400     -0.0400    +0.0000                  \r\nStraightness      mm    +0.0000       +0.0000       +0.0500                +0.0000                  \r\nAngularity        mm    +0.0000       +0.0000       +0.0400                +0.0000                  \r\nPerpendicularity  mm    +0.0000       +0.0000       +0.0600                +0.0000                  \r\nParallelism       mm    +0.0000       +0.0000       +0.0100                +0.0000                  \r\nProfile +         mm    +0.0000       +0.0000       +0.0900                +0.0000                  \r\nProfile -         mm    +0.0000       +0.0000                   -0.0800    +0.0000                  \r\n   \r\nStep 49   \r\nAngle             dd    +72.6460      +72.6460      +0.0200     -0.0200    +0.0000                  \r\nX Location        mm    +11.2500      +11.2500      +0.0300     -0.0300    +0.0000                  \r\nY Location        mm    +4.0000       +4.0000       +0.0400     -0.0400    +0.0000                  \r\nStraightness      mm    +0.0000       +0.0000       +0.0500                +0.0000                  \r\nAngularity        mm    +0.0000       +0.0000       +0.0400                +0.0000                  \r\nPerpendicularity  mm    +0.0000       +0.0000       +0.0600                +0.0000                  \r\nParallelism       mm    +0.0000       +0.0000       +0.0100                +0.0000                  \r\nProfile +         mm    +0.0000       +0.0000       +0.0900                +0.0000                  \r\nProfile -         mm    +0.0000       +0.0000                   -0.0800    +0.0000                  \r\n   \r\n====================================================================================================\r\n\r\n====================================================================================================\r\nMachine Serial Number:  SFD2001052                                                       Page:    2\r\n====================================================================================================\r\nFeature           Unit    Nominal       Actual          Tolerances           Deviation     Exceeded \r\n====================================================================================================\r\nStep 50   \r\nAngle             dd    +287.3540     +287.3540     +0.0200     -0.0200    +0.0000                  \r\nX Location        mm    +13.7500      +13.7500      +0.0300     -0.0300    +0.0000                  \r\nY Location        mm    +4.0000       +4.0000       +0.0400     -0.0400    +0.0000                  \r\nStraightness      mm    +0.0000       +0.0000       +0.0500                +0.0000                  \r\nAngularity        mm    +0.0000       +4.7724       +4.7800                +4.7724      ++++        \r\nPerpendicularity  mm    +0.0000       +0.0000       +0.0600                +0.0000                  \r\nParallelism       mm    +0.0000       +0.0000       +0.0100                +0.0000                  \r\nProfile +         mm    +0.0000       +0.0000       +0.0900                +0.0000                  \r\nProfile -         mm    +0.0000       +0.0000                   -0.0800    +0.0000                  \r\n   \r\nStep 51   \r\nDiameter          mm    +7.0711       +7.0711       +0.0200     -0.0200    +0.0000      -           \r\nX Location        mm    +22.5000      +22.5000      +0.0400     -0.0400    +0.0000                  \r\nY Location        mm    +2.5000       +2.5000       +0.0600     -0.0600    +0.0000                  \r\nCircularity       mm    +0.0000       +0.0000       +0.0100                +0.0000                  \r\nPosition          mm    +0.0000       +0.0000       +0.0200                +0.0000                  \r\nConcentricity     mm    +0.0000       +0.0000       +0.0300                +0.0000                  \r\nProfile +         mm    +0.0000       +0.0000       +0.0900                +0.0000                  \r\nProfile -         mm    +0.0000       +0.0000                   -0.0800    +0.0000                  \r\n   \r\nStep 52   \r\nAngle             dd    +0.0000       +0.0000       +0.0200     -0.0200    +0.0000                  \r\nX Location        mm    +7.5000       +7.5000       +0.0300     -0.0300    +0.0000                  \r\nY Location        mm    +0.0000       +0.0000       +0.0400     -0.0400    +0.0000                  \r\nStraightness      mm    +0.0000       +0.0000       +0.0500                +0.0000                  \r\nAngularity        mm    +0.0000       +14.3172      +14.3220               +14.3172     ++++        \r\nPerpendicularity  mm    +0.0000       +0.0000       +0.0600                +0.0000                  \r\nParallelism       mm    +0.0000       +0.0000       +0.0700                +0.0000                  \r\nProfile +         mm    +0.0000       +0.0000       +0.0900                +0.0000                  \r\nProfile -         mm    +0.0000       +0.0000                   -0.0800    +0.0000                  \r\n   \r\nStep 57   \r\nDiameter          mm    +12.0416      +12.0416      +0.0200     -0.0200    +0.0000      -           \r\nX Location        mm    +22.0000      +22.0000      +0.0400     -0.0400    +0.0000                  \r\nY Location        mm    +2.5000       +2.5000       +0.0600     -0.0600    +0.0000                  \r\nCircularity       mm    +0.0000       +0.0000       +0.0100                +0.0000                  \r\nPosition          mm    +0.0000       +0.0000       +0.0200                +0.0000                  \r\nConcentricity     mm    +0.0000       +1.0000       +1.0050                +1.0000      ++++        \r\nProfile +         mm    +0.0000       +0.0000       +0.0900                +0.0000                  \r\nProfile -         mm    +0.0000       +0.0000                   -0.0800    +0.0000                  \r\n   \r\nStep 58   \r\nX Distance        mm    +0.0000       +0.0000       +0.0200     -0.0200    +0.0000                  \r\nY Distance        mm    +5.0000       +5.0000       +0.0400     -0.0400    +0.0000                  \r\nStraight Line     mm    +5.0000       +5.0000       +0.0700     -0.0700    +0.0000                  \r\nAngle Between     dd    +90.0000      +90.0000      +0.0800     -0.0800    +0.0000                  \r\n   \r\nStep 59   \r\n3-D Distance      mm    +5.0000       +5.0000       +0.0900     -0.0900    +0.0000      -           \r\nX Location        mm    +32.5000      +32.5000      +0.0040     -0.0040    +0.0000      -           \r\nY Location        mm    +5.0000       +5.0000       +0.0050     -0.0050    +0.0000                  \r\nPosition          mm    +0.0000       +0.0000       +0.0200                +0.0000                  \r\n   \r\nStep 63   \r\nAngle 3           dd    +45.0000      +45.0000      +0.0200     -0.0200    +0.0000                  \r\nX Location        mm    +0.0000       +0.0000       +0.0500     -0.0500    +0.0000                  \r\nY Location        mm    +25.0000      +25.0000      +0.0070     -0.0070    +0.0000      -           \r\nPosition          mm    +0.0000       +0.0000       +0.0200                +0.0000                  \r\n   \r\n====================================================================================================\r\n\r\n====================================================================================================\r\nMachine Serial Number:  SFD2001052                                                       Page:    3\r\n====================================================================================================\r\nFeature           Unit    Nominal       Actual          Tolerances           Deviation     Exceeded \r\n====================================================================================================\r\nStep 64   \r\nAngle 2           dd    +270.0000     +270.0000     +0.0200     -0.0200    +0.0000                  \r\nX Location        mm    +0.0000       +0.0000       +0.0500     -0.0500    +0.0000      -           \r\nY Location        mm    +25.0000      +25.0000      +0.0070     -0.0070    +0.0000                  \r\nPosition          mm    +0.0000       +0.0000       +0.0200                +0.0000                  \r\n   \r\nStep 65   \r\nAngle 3           dd    +90.0000      +90.0000      +0.0200     -0.0200    +0.0000                  \r\nX Location        mm    +0.0000       +0.0000       +0.0500     -0.0500    +0.0000      -           \r\nY Location        mm    +25.0000      +25.0000      +0.0070     -0.0070    +0.0000                  \r\nPosition          mm    +0.0000       +0.0000       +0.0200                +0.0000                  \r\n   \r\nStep 66   \r\nAngle 4           dd    +270.0000     +270.0000     +0.0200     -0.0200    +0.0000                  \r\nX Location        mm    +0.0000       +0.0000       +0.0500     -0.0500    +0.0000      -           \r\nY Location        mm    +25.0000      +25.0000      +0.0070     -0.0070    +0.0000                  \r\nPosition          mm    +0.0000       +0.0000       +0.0200                +0.0000                  \r\n   \r\nStep 67   \r\nC/L Angle         dd    +90.0000      +90.0000      +0.0200     -0.0200    +0.0000                  \r\nWidth             mm    +5.0000       +5.0000       +0.0200     -0.0200    +0.0000                  \r\nX Location        mm    +12.5000      +12.5000      +0.0500     -0.0500    +0.0000                  \r\nY Location        mm    +25.0000      +25.0000      +0.0600     -0.0600    +0.0000                  \r\nPosition          mm    +0.0000       +0.0000       +0.0200                +0.0000                  \r\n   \r\nStep 68   \r\nC/L Angle         dd    +90.0000      +90.0000      +0.0200     -0.0200    +0.0000                  \r\nWidth             mm    +5.0000       +5.0000       +0.0200     -0.0200    +0.0000                  \r\nX Location        mm    +12.5000      +12.5000      +0.0500     -0.0500    +0.0000                  \r\nY Location        mm    +20.0000      +20.0000      +0.0600     -0.0600    +0.0000                  \r\nPosition          mm    +0.0000       +0.0000       +0.0200                +0.0000                  \r\n   \r\nStep 71   \r\nX Location        mm    +21.0000      +21.0000      +0.0060     -0.0060    +0.0000                  \r\nY Location        mm    +24.0000      +24.0000      +0.0090     -0.0090    +0.0000      -           \r\nPosition          mm    +0.0000       +0.0000       +0.0200                +0.0000                  \r\n   \r\nStep 72   \r\nX Location        mm    +19.0000      +19.0000      +0.0060     -0.0060    +0.0000                  \r\nY Location        mm    +26.0000      +26.0000      +0.0090     -0.0090    +0.0000                  \r\nPosition          mm    +0.0000       +0.0000       +0.0200                +0.0000                  \r\n   \r\nStep 73   \r\nX Location        mm    +19.0000      +19.0000      +0.0060     -0.0060    +0.0000                  \r\nY Location        mm    +24.0000      +24.0000      +0.0090     -0.0090    +0.0000                  \r\nPosition          mm    +0.0000       +0.0000       +0.0200                +0.0000                  \r\n   \r\nStep 74   \r\nX Location        mm    +21.0000      +21.0000      +0.0060     -0.0060    +0.0000                  \r\nY Location        mm    +26.0000      +26.0000      +0.0090     -0.0090    +0.0000                  \r\nPosition          mm    +0.0000       +0.0000       +0.0200                +0.0000                  \r\n   \r\nStep 75   \r\nArea              mm    +25.0000      +25.0000      +0.2000     -0.2000    +0.0000      -           \r\nLength            mm    +15.0000      +15.0000      +0.0400     -0.0400    +0.0000      -           \r\nX Location        mm    +30.0000      +30.0000      +0.0500     -0.0500    +0.0000                  \r\nY Location        mm    +25.0000      +25.0000      +0.0060     -0.0060    +0.0000                  \r\nPosition          mm    +0.0000       +0.0000       +0.0200                +0.0000                  \r\n   \r\n====================================================================================================\r\n\r\n====================================================================================================\r\nMachine Serial Number:  SFD2001052                                                       Page:    4\r\n====================================================================================================\r\nFeature           Unit    Nominal       Actual          Tolerances           Deviation     Exceeded \r\n====================================================================================================\r\nStep 76   \r\nResult            dd    +12.0416      +12.0416      +0.0500     -0.0500    +0.0000      -           \r\n   \r\nStep 77   \r\nX Location        mm    +27.4772      +27.4772      +0.0500     -0.0500    +0.0000      -           \r\nY Location        mm    +0.0000       +0.0000       +0.0070     -0.0070    +0.0000                  \r\nPosition          mm    +0.0000       +0.0000       +0.0200                +0.0000                  \r\n   \r\nStep 78   \r\nX Location        mm    +16.5228      +16.5228      +0.0500     -0.0500    +0.0000      +           \r\nY Location        mm    +5.0000       +5.0000       +0.0070     -0.0070    +0.0000      +           \r\nPosition          mm    +0.0000       +0.0000       +0.0200                +0.0000                  \r\n   \r\nStep 79   \r\nArea              mm    +50.0000      +50.0000      +0.2000     -0.2000    +0.0000                  \r\nLength            mm    +25.0000      +25.0000      +0.0400     -0.0400    +0.0000                  \r\nX Location        mm    +40.0000      +40.0000      +0.0500     -0.0500    +0.0000                  \r\nY Location        mm    +5.0000       +5.0000       +0.0060     -0.0060    +0.0000                  \r\nPosition          mm    +0.0000       +0.0000       +0.0200                +0.0000                  \r\n   \r\n====================================================================================================\r\n\r\n====================================================================================================\r\n====================================================================================================\r\n') on item 'PrintPRTNotepad.Text15'.", repo.PrintPRTNotepad.Text15Info, new RecordItemIndex(29));
-
                 string print = ((Outputs.OutputsRepositoryFolders.PrintPRTNotepadAppFolder)repo.PrintPRTNotepad.Text15Info.ParentFolder).Text15.TextValue;
                 string[] ReadPrint = Regex.Split(print, "[\r\n]+");
 
@@ -284,34 +281,33 @@ namespace Outputs
 
                 for (int i = 0; i < iPrintLines; i++)
                 {
-                  bool bPrintLineAreSame = ReadHardcodedPrint[i].Equals(ReadPrint[i]);
+                    bool bPrintLineAreSame = ReadHardcodedPrint[i].Equals(ReadPrint[i]);
 
-                  if ((0 == i) || (4 == i))
-                    continue;
+                    if ((0 == i) || (4 == i))
+                        continue;
 
-                  if (!bPrintLineAreSame)
-                  {
+                    if (!bPrintLineAreSame)
+                    {
 
-                    Ranorex.Report.Error("Specific Category", ReadPrint[i]);
-                    Ranorex.Report.Error("Specific Category", "The line has wrong value. It should be:");
-                    Ranorex.Report.Error("Specific Category", ReadHardcodedPrint[i]);
+                        Ranorex.Report.Error("Specific Category", ReadPrint[i]);
+                        Ranorex.Report.Error("Specific Category", "The line has wrong value. It should be:");
+                        Ranorex.Report.Error("Specific Category", ReadHardcodedPrint[i]);
 
-                    //Ranorex.Report.Info("This is a Information");
-                    //Ranorex.Report.Success("This is a success information");
-                    //Ranorex.Report.Failure("This is a failure Information");
+                        //Ranorex.Report.Info("This is a Information");
+                        //Ranorex.Report.Success("This is a success information");
+                        //Ranorex.Report.Failure("This is a failure Information");
 
-                    bPrintOK = false;
-                  }
+                        bPrintOK = false;
+                    }
                 }  // for (int i = 0; i < iLines; i++)
 
                 if (bPrintOK)
                 {
-                  {
-                    Ranorex.Report.Success("The Print test was sucessfully performed");
-                  }
+                    {
+                        Ranorex.Report.Success("The Print test was sucessfully performed");
+                    }
                 }
-
-        
+               
                 Delay.Milliseconds(100);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(29)); }
             
@@ -344,34 +340,33 @@ namespace Outputs
 
                 for (int i = 0; i < iExportLines; i++)
                 {
-                  bool bExportLineAreSame = ReadHardCodedExport[i].Equals(ReadExport[i]);
+                    bool bExportLineAreSame = ReadHardCodedExport[i].Equals(ReadExport[i]);
 
-                  if ((1 == i) || (2 == i) || (3 == i))
-                    continue;
+                    if ((1 == i) || (2 == i) || (3 == i))
+                        continue;
 
-                  if (!bExportLineAreSame)
-                  {
+                    if (!bExportLineAreSame)
+                    {
 
-                    Ranorex.Report.Error("Specific Category", ReadExport[i]);
-                    Ranorex.Report.Error("Specific Category", "The line has wrong value. It should be:");
-                    Ranorex.Report.Error("Specific Category", ReadHardCodedExport[i]);
+                        Ranorex.Report.Error("Specific Category", ReadExport[i]);
+                        Ranorex.Report.Error("Specific Category", "The line has wrong value. It should be:");
+                        Ranorex.Report.Error("Specific Category", ReadHardCodedExport[i]);
 
-                    //Ranorex.Report.Info("This is a Information");
-                    //Ranorex.Report.Success("This is a success information");
-                    //Ranorex.Report.Failure("This is a failure Information");
+                        //Ranorex.Report.Info("This is a Information");
+                        //Ranorex.Report.Success("This is a success information");
+                        //Ranorex.Report.Failure("This is a failure Information");
 
-                    bExportOK = false;
-                  }
+                        bExportOK = false;
+                    }
                 }  // for (int i = 0; i < iLines; i++)
 
                 if (bExportOK)
                 {
-                  {
-                    Ranorex.Report.Success("The Export test was sucessfully performed");
-                  }
+                    {
+                        Ranorex.Report.Success("The Export test was sucessfully performed");
+                    }
                 }
-
-        
+                
                 Delay.Milliseconds(100);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(34)); }
             
@@ -392,7 +387,6 @@ namespace Outputs
             
             try {
                 Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (WindowText='      +40.0000        +5.0000\r\n       +0.0000        +5.0000\r\n       +0.0000        +0.0000\r\n       +5.0000        +5.0000\r\n       +0.0000        +5.0000\r\n       +5.0000        +5.0000\r\n       +5.0000        +0.0000\r\n      +10.0000        +0.0000\r\n      +12.5000        +8.0000\r\n      +12.5000        +8.0000\r\n      +15.0000        +0.0000\r\n      +20.0000        +0.0000\r\n      +20.0000        +5.0000\r\n      +25.0000        +5.0000\r\n      +25.0000        +0.0000\r\n       +0.0000        +0.0000\r\n       +5.0000        +0.0000\r\n      +10.0000        +0.0000\r\n      +15.0000        +0.0000\r\n      +18.0000        +7.0000\r\n      +26.0000        +7.0000\r\n      +26.0000        -2.0000\r\n      +18.0000        -2.0000\r\n      +32.5000        +5.0000\r\n       +0.0000       +25.0000\r\n       +0.0000       +25.0000\r\n       +0.0000       +25.0000\r\n       +0.0000       +25.0000\r\n      +12.5000       +25.0000\r\n      +12.5000       +20.0000\r\n      +30.0000       +25.0000\r\n      +35.0000       +25.0000\r\n      +35.0000       +20.0000\r\n      +30.0000       +20.0000\r\n      +27.4772        +0.0000\r\n      +16.5228        +5.0000\r\n      +40.0000        +5.0000\r\n      +45.0000        +5.0000\r\n      +50.0000        +5.0000\r\n      +50.0000        +0.0000\r\n      +45.0000        +0.0000\r\n      +40.0000        +0.0000\r\n') on item 'DatastreamDatNotepad.Text15'.", repo.DatastreamDatNotepad.Text15Info, new RecordItemIndex(39));
-
                 string DataStream = ((Outputs.OutputsRepositoryFolders.DatastreamDatNotepadAppFolder)repo.DatastreamDatNotepad.Text15Info.ParentFolder).Text15.TextValue;
                 string[] ReadDataStream = Regex.Split(DataStream, "[\r\n]+");
 
@@ -405,34 +399,33 @@ namespace Outputs
 
                 for (int i = 0; i < iDataStreamLines; i++)
                 {
-                  bool bDataStreamLineAreSame = ReadHardcodedDataStream[i].Equals(ReadDataStream[i]);
+                    bool bDataStreamLineAreSame = ReadHardcodedDataStream[i].Equals(ReadDataStream[i]);
 
 
-                  if (!bDataStreamLineAreSame)
-                  {
+                    if (!bDataStreamLineAreSame)
+                    {
 
-                    Ranorex.Report.Error("Specific Category", ReadDataStream[i]);
-                    Ranorex.Report.Error("Specific Category", "The line has wrong value. It should be:");
-                    Ranorex.Report.Error("Specific Category", ReadHardcodedDataStream[i]);
+                        Ranorex.Report.Error("Specific Category", ReadDataStream[i]);
+                        Ranorex.Report.Error("Specific Category", "The line has wrong value. It should be:");
+                        Ranorex.Report.Error("Specific Category", ReadHardcodedDataStream[i]);
 
-                     bDataStreamOK = false;
+                        bDataStreamOK = false;
 
 
-                    //Ranorex.Report.Info("This is a Information");
-                    //Ranorex.Report.Success("This is a success information");
-                    //Ranorex.Report.Failure("This is a failure Information");
-                  }
+                        //Ranorex.Report.Info("This is a Information");
+                        //Ranorex.Report.Success("This is a success information");
+                        //Ranorex.Report.Failure("This is a failure Information");
+                    }
 
                 }  // for (int i = 0; i < iLines; i++)
 
                 if (bDataStreamOK)
                 {
-                  {
-                    Ranorex.Report.Success("The DataStream test was sucessfully performed");
-                  }
+                    {
+                        Ranorex.Report.Success("The DataStream test was sucessfully performed");
+                    }
                 }
-                
-        
+               
                 Delay.Milliseconds(100);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(39)); }
             
@@ -443,17 +436,60 @@ namespace Outputs
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(41));
             Delay.Duration(1000, false);
             
-            Report.Log(ReportLevel.Info, "Application", "Run application 'D:\\Joro\\GIT_Automations\\AutomationOutputs\\Reports\\excel.xls' with arguments '' in normal mode.", new RecordItemIndex(42));
-            Host.Local.RunApplication("D:\\Joro\\GIT_Automations\\AutomationOutputs\\Reports\\excel.xls", "", "D:\\Joro\\GIT_Automations\\AutomationOutputs\\Reports", false);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{LWin}'.", new RecordItemIndex(42));
+            Keyboard.Press("{LWin}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Invoke Action", "Invoking Maximize() on item 'ExcelXlsNotepad'.", repo.ExcelXlsNotepad.SelfInfo, new RecordItemIndex(43));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'computer'.", new RecordItemIndex(43));
+            Keyboard.Press("computer");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}'.", new RecordItemIndex(44));
+            Keyboard.Press("{Return}");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Computer.ToolBar1001' at Center.", repo.Computer.ToolBar1001Info, new RecordItemIndex(45));
+            repo.Computer.ToolBar1001.Click();
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Delete}'.", new RecordItemIndex(46));
+            Keyboard.Press("{Delete}");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'D:\\Joro\\GIT_Automations\\AutomationOutputs\\Reports'.", new RecordItemIndex(47));
+            Keyboard.Press("D:\\Joro\\GIT_Automations\\AutomationOutputs\\Reports");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}'.", new RecordItemIndex(48));
+            Keyboard.Press("{Return}");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Right Click item 'Reports.ListItem4' at Center.", repo.Reports.ListItem4Info, new RecordItemIndex(49));
+            repo.Reports.ListItem4.Click(System.Windows.Forms.MouseButtons.Right);
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Right Click item 'Computer.SystemItemNameDisplay' at 15;9.", repo.Computer.SystemItemNameDisplayInfo, new RecordItemIndex(50));
+            repo.Computer.SystemItemNameDisplay.Click(System.Windows.Forms.MouseButtons.Right, "15;9");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Move item 'Explorer.OpenWith' at 13;7.", repo.Explorer.OpenWithInfo, new RecordItemIndex(51));
+            repo.Explorer.OpenWith.MoveTo("13;7");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Move item 'Explorer1.MicrosoftExcel' at 123;7.", repo.Explorer1.MicrosoftExcelInfo, new RecordItemIndex(52));
+            repo.Explorer1.MicrosoftExcel.MoveTo("123;7");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Explorer1.Notepad' at 158;9.", repo.Explorer1.NotepadInfo, new RecordItemIndex(53));
+            repo.Explorer1.Notepad.Click("158;9");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Invoke Action", "Invoking Maximize() on item 'ExcelXlsNotepad'.", repo.ExcelXlsNotepad.SelfInfo, new RecordItemIndex(54));
             repo.ExcelXlsNotepad.Self.Maximize();
             Delay.Milliseconds(100);
-
+            
             try {
-                Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (WindowText='X +5.0000\r\nY +5.0000\r\nPOS +0.0000\r\nX +40.0000\r\nY +5.0000\r\nPOS +0.0000\r\nANG +270.0000\r\nX +0.0000\r\nY +2.5000\r\nSTR +0.0000\r\nDST +0.0000\r\nPER +0.0000\r\nPAR +0.0000\r\nPRP +0.0000\r\nPRM +0.0000\r\nANG +180.0000\r\nX +2.5000\r\nY +5.0000\r\nSTR +0.0000\r\nDST +5.0000\r\nPER +0.0000\r\nPAR +0.0000\r\nPRP +0.0000\r\nPRM +0.0000\r\nANG +270.0000\r\nX +5.0000\r\nY +2.5000\r\nSTR +0.0000\r\nDST +0.0000\r\nPER +0.0000\r\nPAR +0.0000\r\nPRP +0.0000\r\nPRM +0.0000\r\nANG +72.6460\r\nX +11.2500\r\nY +4.0000\r\nSTR +0.0000\r\nDST +0.0000\r\nPER +0.0000\r\nPAR +0.0000\r\nPRP +0.0000\r\nPRM +0.0000\r\nANG +287.3540\r\nX +13.7500\r\nY +4.0000\r\nSTR +0.0000\r\nDST +4.7724\r\nPER +0.0000\r\nPAR +0.0000\r\nPRP +0.0000\r\nPRM +0.0000\r\nDIA +7.0711\r\nX +22.5000\r\nY +2.5000\r\nRND +0.0000\r\nPOS +0.0000\r\nCON +0.0000\r\nPRP +0.0000\r\nPRM +0.0000\r\nANG +0.0000\r\nX +7.5000\r\nY +0.0000\r\nSTR +0.0000\r\nDST +14.3172\r\nPER +0.0000\r\nPAR +0.0000\r\nPRP +0.0000\r\nPRM +0.0000\r\nDIA +12.0416\r\nX +22.0000\r\nY +2.5000\r\nRND +0.0000\r\nPOS +0.0000\r\nCON +1.0000\r\nPRP +0.0000\r\nPRM +0.0000\r\nXD +0.0000\r\nYD +5.0000\r\nDIS +5.0000\r\nANG +90.0000\r\nDIS +5.0000\r\nX +32.5000\r\nY +5.0000\r\nPOS +0.0000\r\nANG +45.0000\r\nX +0.0000\r\nY +25.0000\r\nPOS +0.0000\r\nANG +270.0000\r\nX +0.0000\r\nY +25.0000\r\nPOS +0.0000\r\nANG +90.0000\r\nX +0.0000\r\nY +25.0000\r\nPOS +0.0000\r\nANG +270.0000\r\nX +0.0000\r\nY +25.0000\r\nPOS +0.0000\r\nWCA +90.0000\r\nWID +5.0000\r\nX +12.5000\r\nY +25.0000\r\nPOS +0.0000\r\nWCA +90.0000\r\nWID +5.0000\r\nX +12.5000\r\nY +20.0000\r\nPOS +0.0000\r\nX +21.0000\r\nY +24.0000\r\nPOS +0.0000\r\nX +19.0000\r\nY +26.0000\r\nPOS +0.0000\r\nX +19.0000\r\nY +24.0000\r\nPOS +0.0000\r\nX +21.0000\r\nY +26.0000\r\nPOS +0.0000\r\nARE +25.0000\r\nLEN +15.0000\r\nX +30.0000\r\nY +25.0000\r\nPOS +0.0000\r\nRES +12.0416\r\nX +27.4772\r\nY +0.0000\r\nPOS +0.0000\r\nX +16.5228\r\nY +5.0000\r\nPOS +0.0000\r\nARE +50.0000\r\nLEN +25.0000\r\nX +40.0000\r\nY +5.0000\r\nPOS +0.0000\r\n') on item 'ExcelXlsNotepad.Text15'.", repo.ExcelXlsNotepad.Text15Info, new RecordItemIndex(44));
-
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating AttributeEqual (WindowText='X +5.0000\r\nY +5.0000\r\nPOS +0.0000\r\nX +40.0000\r\nY +5.0000\r\nPOS +0.0000\r\nANG +270.0000\r\nX +0.0000\r\nY +2.5000\r\nSTR +0.0000\r\nDST +0.0000\r\nPER +0.0000\r\nPAR +0.0000\r\nPRP +0.0000\r\nPRM +0.0000\r\nANG +180.0000\r\nX +2.5000\r\nY +5.0000\r\nSTR +0.0000\r\nDST +5.0000\r\nPER +0.0000\r\nPAR +0.0000\r\nPRP +0.0000\r\nPRM +0.0000\r\nANG +270.0000\r\nX +5.0000\r\nY +2.5000\r\nSTR +0.0000\r\nDST +0.0000\r\nPER +0.0000\r\nPAR +0.0000\r\nPRP +0.0000\r\nPRM +0.0000\r\nANG +72.6460\r\nX +11.2500\r\nY +4.0000\r\nSTR +0.0000\r\nDST +0.0000\r\nPER +0.0000\r\nPAR +0.0000\r\nPRP +0.0000\r\nPRM +0.0000\r\nANG +287.3540\r\nX +13.7500\r\nY +4.0000\r\nSTR +0.0000\r\nDST +4.7724\r\nPER +0.0000\r\nPAR +0.0000\r\nPRP +0.0000\r\nPRM +0.0000\r\nDIA +7.0711\r\nX +22.5000\r\nY +2.5000\r\nRND +0.0000\r\nPOS +0.0000\r\nCON +0.0000\r\nPRP +0.0000\r\nPRM +0.0000\r\nANG +0.0000\r\nX +7.5000\r\nY +0.0000\r\nSTR +0.0000\r\nDST +14.3172\r\nPER +0.0000\r\nPAR +0.0000\r\nPRP +0.0000\r\nPRM +0.0000\r\nDIA +12.0416\r\nX +22.0000\r\nY +2.5000\r\nRND +0.0000\r\nPOS +0.0000\r\nCON +1.0000\r\nPRP +0.0000\r\nPRM +0.0000\r\nXD +0.0000\r\nYD +5.0000\r\nDIS +5.0000\r\nANG +90.0000\r\nDIS +5.0000\r\nX +32.5000\r\nY +5.0000\r\nPOS +0.0000\r\nANG +45.0000\r\nX +0.0000\r\nY +25.0000\r\nPOS +0.0000\r\nANG +270.0000\r\nX +0.0000\r\nY +25.0000\r\nPOS +0.0000\r\nANG +90.0000\r\nX +0.0000\r\nY +25.0000\r\nPOS +0.0000\r\nANG +270.0000\r\nX +0.0000\r\nY +25.0000\r\nPOS +0.0000\r\nWCA +90.0000\r\nWID +5.0000\r\nX +12.5000\r\nY +25.0000\r\nPOS +0.0000\r\nWCA +90.0000\r\nWID +5.0000\r\nX +12.5000\r\nY +20.0000\r\nPOS +0.0000\r\nX +21.0000\r\nY +24.0000\r\nPOS +0.0000\r\nX +19.0000\r\nY +26.0000\r\nPOS +0.0000\r\nX +19.0000\r\nY +24.0000\r\nPOS +0.0000\r\nX +21.0000\r\nY +26.0000\r\nPOS +0.0000\r\nARE +25.0000\r\nLEN +15.0000\r\nX +30.0000\r\nY +25.0000\r\nPOS +0.0000\r\nRES +12.0416\r\nX +27.4772\r\nY +0.0000\r\nPOS +0.0000\r\nX +16.5228\r\nY +5.0000\r\nPOS +0.0000\r\nARE +50.0000\r\nLEN +25.0000\r\nX +40.0000\r\nY +5.0000\r\nPOS +0.0000\r\n') on item 'ExcelXlsNotepad.Text15'.", repo.ExcelXlsNotepad.Text15Info, new RecordItemIndex(55));
                 string Excel = ((Outputs.OutputsRepositoryFolders.ExcelXlsNotepadAppFolder)repo.ExcelXlsNotepad.Text15Info.ParentFolder).Text15.TextValue;
                 string[] ReadExcel = Regex.Split(Excel, "[\r\n]+");
 
@@ -466,37 +502,37 @@ namespace Outputs
 
                 for (int i = 0; i < iExcelLines; i++)
                 {
-                  bool bExcelLineAreSame = ReadHardcodedExcel[i].Equals(ReadExcel[i]);
+                    bool bExcelLineAreSame = ReadHardcodedExcel[i].Equals(ReadExcel[i]);
 
 
-                  if (!bExcelLineAreSame)
-                  {
+                    if (!bExcelLineAreSame)
+                    {
 
-                    Ranorex.Report.Error("Specific Category", ReadExcel[i]);
-                    Ranorex.Report.Error("Specific Category", "The line has wrong value. It should be:");
-                    Ranorex.Report.Error("Specific Category", ReadHardcodedExcel[i]);
+                        Ranorex.Report.Error("Specific Category", ReadExcel[i]);
+                        Ranorex.Report.Error("Specific Category", "The line has wrong value. It should be:");
+                        Ranorex.Report.Error("Specific Category", ReadHardcodedExcel[i]);
 
-                      bExcelOK = false;
+                        bExcelOK = false;
 
 
-                    //Ranorex.Report.Info("This is a Information");
-                    //Ranorex.Report.Success("This is a success information");
-                    //Ranorex.Report.Failure("This is a failure Information");
-                  }
+                        //Ranorex.Report.Info("This is a Information");
+                        //Ranorex.Report.Success("This is a success information");
+                        //Ranorex.Report.Failure("This is a failure Information");
+                    }
 
                 }  // for (int i = 0; i < iLines; i++)
 
                 if (bExcelOK)
                 {
-                  {
-                    Ranorex.Report.Success("The Excel test was sucessfully performed");
-                  }
+                    {
+                        Ranorex.Report.Success("The Excel test was sucessfully performed");
+                    }
                 }
-        
+               
                 Delay.Milliseconds(100);
-          } catch (Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(39)); }
-
-            Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'ExcelXlsNotepad.Text15'.", repo.ExcelXlsNotepad.Text15Info, new RecordItemIndex(45));
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(55)); }
+            
+            Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'ExcelXlsNotepad.Text15'.", repo.ExcelXlsNotepad.Text15Info, new RecordItemIndex(56));
             Host.Current.CloseApplication(repo.ExcelXlsNotepad.Text15, new Duration(0));
             Delay.Milliseconds(0);
             

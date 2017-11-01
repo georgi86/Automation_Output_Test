@@ -35,6 +35,10 @@ namespace Outputs
         OutputsRepositoryFolders.ExportStaNotepadAppFolder _exportstanotepad;
         OutputsRepositoryFolders.DatastreamDatNotepadAppFolder _datastreamdatnotepad;
         OutputsRepositoryFolders.ExcelXlsNotepadAppFolder _excelxlsnotepad;
+        OutputsRepositoryFolders.ComputerAppFolder _computer;
+        OutputsRepositoryFolders.ExplorerAppFolder _explorer;
+        OutputsRepositoryFolders.Explorer1AppFolder _explorer1;
+        OutputsRepositoryFolders.ReportsAppFolder _reports;
 
         /// <summary>
         /// Gets the singleton class instance representing the OutputsRepository element repository.
@@ -59,6 +63,10 @@ namespace Outputs
             _exportstanotepad = new OutputsRepositoryFolders.ExportStaNotepadAppFolder(this);
             _datastreamdatnotepad = new OutputsRepositoryFolders.DatastreamDatNotepadAppFolder(this);
             _excelxlsnotepad = new OutputsRepositoryFolders.ExcelXlsNotepadAppFolder(this);
+            _computer = new OutputsRepositoryFolders.ComputerAppFolder(this);
+            _explorer = new OutputsRepositoryFolders.ExplorerAppFolder(this);
+            _explorer1 = new OutputsRepositoryFolders.Explorer1AppFolder(this);
+            _reports = new OutputsRepositoryFolders.ReportsAppFolder(this);
         }
 
 #region Variables
@@ -147,6 +155,42 @@ namespace Outputs
         public virtual OutputsRepositoryFolders.ExcelXlsNotepadAppFolder ExcelXlsNotepad
         {
             get { return _excelxlsnotepad; }
+        }
+
+        /// <summary>
+        /// The Computer folder.
+        /// </summary>
+        [RepositoryFolder("0168a895-7531-4468-af45-395fc5377c78")]
+        public virtual OutputsRepositoryFolders.ComputerAppFolder Computer
+        {
+            get { return _computer; }
+        }
+
+        /// <summary>
+        /// The Explorer folder.
+        /// </summary>
+        [RepositoryFolder("e6f55bc6-fc32-4fc1-8dfa-a3200f265f1a")]
+        public virtual OutputsRepositoryFolders.ExplorerAppFolder Explorer
+        {
+            get { return _explorer; }
+        }
+
+        /// <summary>
+        /// The Explorer1 folder.
+        /// </summary>
+        [RepositoryFolder("a7ec701c-a1c1-444b-a657-a15caf51fd59")]
+        public virtual OutputsRepositoryFolders.Explorer1AppFolder Explorer1
+        {
+            get { return _explorer1; }
+        }
+
+        /// <summary>
+        /// The Reports folder.
+        /// </summary>
+        [RepositoryFolder("ffe8e865-b446-4b82-9588-622e1e99e9c2")]
+        public virtual OutputsRepositoryFolders.ReportsAppFolder Reports
+        {
+            get { return _reports; }
         }
     }
 
@@ -758,6 +802,322 @@ namespace Outputs
                 get
                 {
                     return _text15Info;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The ComputerAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("0168a895-7531-4468-af45-395fc5377c78")]
+        public partial class ComputerAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _toolbar1001Info;
+            RepoItemInfo _systemitemnamedisplayInfo;
+
+            /// <summary>
+            /// Creates a new Computer  folder.
+            /// </summary>
+            public ComputerAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("Computer", "/form[@title='Computer']", parentFolder, 30000, null, true, "0168a895-7531-4468-af45-395fc5377c78", "")
+            {
+                _toolbar1001Info = new RepoItemInfo(this, "ToolBar1001", "element[@class='WorkerW']/?/?/element//toolbar[@controlid='1001']", 30000, null, "d562d20f-a3c3-438d-ac40-1b7fdaaabbd1");
+                _systemitemnamedisplayInfo = new RepoItemInfo(this, "SystemItemNameDisplay", ".//element/container[@caption='ShellView']/?/?/listitem[@text='excel.xls']/text[@automationid='System.ItemNameDisplay']", 30000, null, "456ced00-887e-414b-ac20-4859513c4b15");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("0168a895-7531-4468-af45-395fc5377c78")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("0168a895-7531-4468-af45-395fc5377c78")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ToolBar1001 item.
+            /// </summary>
+            [RepositoryItem("d562d20f-a3c3-438d-ac40-1b7fdaaabbd1")]
+            public virtual Ranorex.ToolBar ToolBar1001
+            {
+                get
+                {
+                    return _toolbar1001Info.CreateAdapter<Ranorex.ToolBar>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ToolBar1001 item info.
+            /// </summary>
+            [RepositoryItemInfo("d562d20f-a3c3-438d-ac40-1b7fdaaabbd1")]
+            public virtual RepoItemInfo ToolBar1001Info
+            {
+                get
+                {
+                    return _toolbar1001Info;
+                }
+            }
+
+            /// <summary>
+            /// The SystemItemNameDisplay item.
+            /// </summary>
+            [RepositoryItem("456ced00-887e-414b-ac20-4859513c4b15")]
+            public virtual Ranorex.Text SystemItemNameDisplay
+            {
+                get
+                {
+                    return _systemitemnamedisplayInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SystemItemNameDisplay item info.
+            /// </summary>
+            [RepositoryItemInfo("456ced00-887e-414b-ac20-4859513c4b15")]
+            public virtual RepoItemInfo SystemItemNameDisplayInfo
+            {
+                get
+                {
+                    return _systemitemnamedisplayInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The ExplorerAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("e6f55bc6-fc32-4fc1-8dfa-a3200f265f1a")]
+        public partial class ExplorerAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _openwithInfo;
+
+            /// <summary>
+            /// Creates a new Explorer  folder.
+            /// </summary>
+            public ExplorerAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("Explorer", "/contextmenu[@class='#32768' and @instance='0']", parentFolder, 30000, null, false, "e6f55bc6-fc32-4fc1-8dfa-a3200f265f1a", "")
+            {
+                _openwithInfo = new RepoItemInfo(this, "OpenWith", "?/?/menuitem[@accessiblename='Open with']", 30000, null, "1cdae9d8-a2bc-4109-8d87-2ffc982ec010");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("e6f55bc6-fc32-4fc1-8dfa-a3200f265f1a")]
+            public virtual Ranorex.ContextMenu Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.ContextMenu>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("e6f55bc6-fc32-4fc1-8dfa-a3200f265f1a")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The OpenWith item.
+            /// </summary>
+            [RepositoryItem("1cdae9d8-a2bc-4109-8d87-2ffc982ec010")]
+            public virtual Ranorex.MenuItem OpenWith
+            {
+                get
+                {
+                    return _openwithInfo.CreateAdapter<Ranorex.MenuItem>(true);
+                }
+            }
+
+            /// <summary>
+            /// The OpenWith item info.
+            /// </summary>
+            [RepositoryItemInfo("1cdae9d8-a2bc-4109-8d87-2ffc982ec010")]
+            public virtual RepoItemInfo OpenWithInfo
+            {
+                get
+                {
+                    return _openwithInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The Explorer1AppFolder folder.
+        /// </summary>
+        [RepositoryFolder("a7ec701c-a1c1-444b-a657-a15caf51fd59")]
+        public partial class Explorer1AppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _microsoftexcelInfo;
+            RepoItemInfo _notepadInfo;
+
+            /// <summary>
+            /// Creates a new Explorer1  folder.
+            /// </summary>
+            public Explorer1AppFolder(RepoGenBaseFolder parentFolder) :
+                    base("Explorer1", "/contextmenu[@class='#32768' and @instance='1']", parentFolder, 30000, null, false, "a7ec701c-a1c1-444b-a657-a15caf51fd59", "")
+            {
+                _microsoftexcelInfo = new RepoItemInfo(this, "MicrosoftExcel", "?/?/menuitem[@accessiblename='Microsoft Excel']", 30000, null, "c5355cf0-7b45-4bc2-a4db-a301c4226e9f");
+                _notepadInfo = new RepoItemInfo(this, "Notepad", "?/?/menuitem[@accessiblename='Notepad' and @text='Notepad']", 30000, null, "e461bdc0-6dd7-4701-87f3-ef0f5953acb7");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("a7ec701c-a1c1-444b-a657-a15caf51fd59")]
+            public virtual Ranorex.ContextMenu Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.ContextMenu>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("a7ec701c-a1c1-444b-a657-a15caf51fd59")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The MicrosoftExcel item.
+            /// </summary>
+            [RepositoryItem("c5355cf0-7b45-4bc2-a4db-a301c4226e9f")]
+            public virtual Ranorex.MenuItem MicrosoftExcel
+            {
+                get
+                {
+                    return _microsoftexcelInfo.CreateAdapter<Ranorex.MenuItem>(true);
+                }
+            }
+
+            /// <summary>
+            /// The MicrosoftExcel item info.
+            /// </summary>
+            [RepositoryItemInfo("c5355cf0-7b45-4bc2-a4db-a301c4226e9f")]
+            public virtual RepoItemInfo MicrosoftExcelInfo
+            {
+                get
+                {
+                    return _microsoftexcelInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Notepad item.
+            /// </summary>
+            [RepositoryItem("e461bdc0-6dd7-4701-87f3-ef0f5953acb7")]
+            public virtual Ranorex.MenuItem Notepad
+            {
+                get
+                {
+                    return _notepadInfo.CreateAdapter<Ranorex.MenuItem>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Notepad item info.
+            /// </summary>
+            [RepositoryItemInfo("e461bdc0-6dd7-4701-87f3-ef0f5953acb7")]
+            public virtual RepoItemInfo NotepadInfo
+            {
+                get
+                {
+                    return _notepadInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The ReportsAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("ffe8e865-b446-4b82-9588-622e1e99e9c2")]
+        public partial class ReportsAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _listitem4Info;
+
+            /// <summary>
+            /// Creates a new Reports  folder.
+            /// </summary>
+            public ReportsAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("Reports", "/form[@processname='explorer' and @class='CabinetWClass' and @instance='1']", parentFolder, 30000, null, true, "ffe8e865-b446-4b82-9588-622e1e99e9c2", "")
+            {
+                _listitem4Info = new RepoItemInfo(this, "ListItem4", ".//element/container[@caption='ShellView']/container[@class='DirectUIHWND']/listitem[@text='excel.xls']", 30000, null, "e8e5a232-b19b-4c45-91d5-f2968065a7b9");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("ffe8e865-b446-4b82-9588-622e1e99e9c2")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("ffe8e865-b446-4b82-9588-622e1e99e9c2")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ListItem4 item.
+            /// </summary>
+            [RepositoryItem("e8e5a232-b19b-4c45-91d5-f2968065a7b9")]
+            public virtual Ranorex.ListItem ListItem4
+            {
+                get
+                {
+                    return _listitem4Info.CreateAdapter<Ranorex.ListItem>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ListItem4 item info.
+            /// </summary>
+            [RepositoryItemInfo("e8e5a232-b19b-4c45-91d5-f2968065a7b9")]
+            public virtual RepoItemInfo ListItem4Info
+            {
+                get
+                {
+                    return _listitem4Info;
                 }
             }
         }
