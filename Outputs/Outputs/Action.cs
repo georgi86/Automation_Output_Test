@@ -466,10 +466,10 @@ namespace Outputs
             Keyboard.Press("computer");
             Delay.Milliseconds(0);
 
-            // "Down Arrow" Button
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Down}'.", new RecordItemIndex(0));
-            Keyboard.Press("{Down}");
-            Delay.Milliseconds(0);                        
+            //// "Down Arrow" Button   //This should work in case in which the Computer Management option appears in the first position
+            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Down}'.", new RecordItemIndex(0));
+            //Keyboard.Press("{Down}");
+            //Delay.Milliseconds(0);                        
 
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}'.", new RecordItemIndex(44));
             Keyboard.Press("{Return}");
@@ -489,11 +489,7 @@ namespace Outputs
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}'.", new RecordItemIndex(48));
             Keyboard.Press("{Return}");
-            Delay.Milliseconds(0);
-            
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Right Click item 'Reports.ListItem4' at Center.", repo.Reports.ListItem4Info, new RecordItemIndex(49));
-            //repo.Reports.ListItem4.Click(System.Windows.Forms.MouseButtons.Right);
-            //Delay.Milliseconds(200);
+            Delay.Milliseconds(0);                        
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Right Click item 'Computer.SystemItemNameDisplay' at 15;9.", repo.Computer.SystemItemNameDisplayInfo, new RecordItemIndex(50));
             repo.Computer.SystemItemNameDisplay.Click(System.Windows.Forms.MouseButtons.Right, "15;9");
