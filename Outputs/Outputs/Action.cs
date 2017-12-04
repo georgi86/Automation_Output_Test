@@ -73,24 +73,28 @@ namespace Outputs
         [System.CodeDom.Compiler.GeneratedCode("Ranorex", "7.0")]
         void ITestModule.Run()
         {
-            Mouse.DefaultMoveTime = 300;
-            Keyboard.DefaultKeyPressTime = 100;
+            Mouse.DefaultMoveTime = 500;
+            Keyboard.DefaultKeyPressTime = 200;
             Delay.SpeedFactor = 1.00;
 
             Init();
 
+            // Click somewhere in the TitleBar to get a focus on all options in the Menu Bar
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SnapXUntitled.SnapXUntitled' at 527;9.", repo.SnapXUntitled.SnapXUntitledInfo, new RecordItemIndex(0));
             repo.SnapXUntitled.SnapXUntitled.Click("527;9");
             Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{LMenu}'.", new RecordItemIndex(1));
+
+            // "Alt" Button
+            Report.Log(ReportLevel.Info, "Keyboard", "\"Alt\" Button\r\nKey sequence '{LMenu}'.", new RecordItemIndex(1));
             Keyboard.Press("{LMenu}");
             Delay.Milliseconds(0);
-            
+
+            // "F" Button
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'f'.", new RecordItemIndex(2));
             Keyboard.Press("f");
             Delay.Milliseconds(0);
-            
+
+            // "O" Button
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'o'.", new RecordItemIndex(3));
             Keyboard.Press("o");
             Delay.Milliseconds(0);
@@ -110,19 +114,23 @@ namespace Outputs
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'OpenSnapXRoutine.Text1148'.", repo.OpenSnapXRoutine.Text1148Info, new RecordItemIndex(7));
             repo.OpenSnapXRoutine.Text1148.PressKeys("{Return}");
             Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SnapXUntitled.SnapXUntitled' at 666;8.", repo.SnapXUntitled.SnapXUntitledInfo, new RecordItemIndex(8));
-            repo.SnapXUntitled.SnapXUntitled.Click("666;8");
+
+            // Click somewhere in the TitleBar to get a focus on all options in the Menu Bar
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SnapXUntitled.SnapXUntitled' at 527;9.", repo.SnapXUntitled.SnapXUntitledInfo, new RecordItemIndex(0));
+            repo.SnapXUntitled.SnapXUntitled.Click("527;9");
             Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{LMenu}'.", new RecordItemIndex(9));
+
+            // "Alt" Button
+            Report.Log(ReportLevel.Info, "Keyboard", "\"Alt\" Button\r\nKey sequence '{LMenu}'.", new RecordItemIndex(1));
             Keyboard.Press("{LMenu}");
             Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'f'.", new RecordItemIndex(10));
+
+            // "F" Button
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'f'.", new RecordItemIndex(2));
             Keyboard.Press("f");
             Delay.Milliseconds(0);
-            
+
+            // "R" Button
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'r'.", new RecordItemIndex(11));
             Keyboard.Press("r");
             Delay.Milliseconds(0);
@@ -137,10 +145,21 @@ namespace Outputs
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SnapXUntitled.Finish' at Center.", repo.SnapXUntitled.FinishInfo, new RecordItemIndex(14));
             repo.SnapXUntitled.Finish.Click();
             Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SnapXUntitled.ButtonNew' at Center.", repo.SnapXUntitled.ButtonNewInfo, new RecordItemIndex(15));
-            repo.SnapXUntitled.ButtonNew.Click();
-            Delay.Milliseconds(200);
+
+            // "Alt" Button
+            Report.Log(ReportLevel.Info, "Keyboard", "\"Alt\" Button\r\nKey sequence '{LMenu}'.", new RecordItemIndex(1));
+            Keyboard.Press("{LMenu}");
+            Delay.Milliseconds(0);
+
+            // "F" Button
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'f'.", new RecordItemIndex(2));
+            Keyboard.Press("f");
+            Delay.Milliseconds(0);
+
+            // "N" Button
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'n'.", new RecordItemIndex(11));
+            Keyboard.Press("n");
+            Delay.Milliseconds(0);                        
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(16));
             Delay.Duration(2000, false);
@@ -435,6 +454,9 @@ namespace Outputs
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(41));
             Delay.Duration(1000, false);
+
+
+
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{LWin}'.", new RecordItemIndex(42));
             Keyboard.Press("{LWin}");
@@ -443,7 +465,12 @@ namespace Outputs
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'computer'.", new RecordItemIndex(43));
             Keyboard.Press("computer");
             Delay.Milliseconds(0);
-            
+
+            // "Down Arrow" Button
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Down}'.", new RecordItemIndex(0));
+            Keyboard.Press("{Down}");
+            Delay.Milliseconds(0);                        
+
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}'.", new RecordItemIndex(44));
             Keyboard.Press("{Return}");
             Delay.Milliseconds(0);
@@ -464,9 +491,9 @@ namespace Outputs
             Keyboard.Press("{Return}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Right Click item 'Reports.ListItem4' at Center.", repo.Reports.ListItem4Info, new RecordItemIndex(49));
-            repo.Reports.ListItem4.Click(System.Windows.Forms.MouseButtons.Right);
-            Delay.Milliseconds(200);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Right Click item 'Reports.ListItem4' at Center.", repo.Reports.ListItem4Info, new RecordItemIndex(49));
+            //repo.Reports.ListItem4.Click(System.Windows.Forms.MouseButtons.Right);
+            //Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Right Click item 'Computer.SystemItemNameDisplay' at 15;9.", repo.Computer.SystemItemNameDisplayInfo, new RecordItemIndex(50));
             repo.Computer.SystemItemNameDisplay.Click(System.Windows.Forms.MouseButtons.Right, "15;9");
@@ -534,8 +561,8 @@ namespace Outputs
             
             Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'ExcelXlsNotepad.Text15'.", repo.ExcelXlsNotepad.Text15Info, new RecordItemIndex(56));
             Host.Current.CloseApplication(repo.ExcelXlsNotepad.Text15, new Duration(0));
-            Delay.Milliseconds(0);
-            
+            Delay.Milliseconds(0);            
+
         }
 
 #region Image Feature Data
