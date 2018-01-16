@@ -2,7 +2,7 @@ Machine Serial Number:  SFD2001052                                              
 ====================================================================================================
 Routine Name                                                    Run #            Date & Time        
 ====================================================================================================
-MFG_LF101-097D_SX_Rotational_Dot_Chase.mxy                   1         Friday, May 20, 2016 11:42:20
+MFG_LF101-097D_SX_Rotational_Dot_Chase.mxy               1     Wednesday, November 22, 2017 17:29:44
 ====================================================================================================
 
 ID:MDYzMDE1fjEyLjM5fk1GR19TRkQ0MDAxMDAxX1NYX1JvdGF0aW9uYWxfRG90X0NoYXNl
@@ -11,86 +11,38 @@ ID:MDYzMDE1fjEyLjM5fk1GR19TRkQ0MDAxMDAxX1NYX1JvdGF0aW9uYWxfRG90X0NoYXNl
 Feature           Unit    Nominal       Actual          Tolerances           Deviation     Exceeded 
 ====================================================================================================
 Step 68 - Y Rotation
-Result            dd    +0.0000       -0.0022       +0.0028     -0.0028    -0.0022      ----        
+Result            dd    +0.000        +0.033        +0.003      -0.003     +0.033       +0.030      
    
 Step 69 - X FOV Range
-Result            dd    +0.0000       +0.0080       +0.0200     +0.0000    +0.0080      +           
+Result            dd    +0.000        +0.105        +0.020      +0.000     +0.105       +0.085      
    
 Step 70 - Y FOV Range
-Result            dd    +0.0000       +0.0064       +0.0200     -0.0200    +0.0064      ++          
+Result            dd    +0.000        +0.033        +0.020      -0.020     +0.033       +0.013      
    
 Step 82 - Y Rotation
-Result            dd    +0.0000       -0.0060       +0.0028     -0.0028    -0.0060      -0.0032     
+Result            dd    +0.000        +0.027        +0.003      -0.003     +0.027       +0.024      
    
 Step 83 - X FOV Range
-Result            dd    +0.0000       +0.0072       +0.0200     +0.0000    +0.0072      ++          
+Result            dd    +0.000        +0.097        +0.020      +0.000     +0.097       +0.077      
    
 Step 84 - Y FOV Range
-Result            dd    +0.0000       +0.0060       +0.0200     -0.0200    +0.0060      ++          
+Result            dd    +0.000        +0.027        +0.020      -0.020     +0.027       +0.007      
    
 Step 96 - Y Rotation
-Result            dd    +0.0000       -0.0013       +0.0028     -0.0028    -0.0013      --          
+Result            dd    +0.000        +0.029        +0.003      -0.003     +0.029       +0.026      
    
 Step 97 - X FOV Range
-Result            dd    +0.0000       +0.0092       +0.0200     +0.0000    +0.0092      +           
+Result            dd    +0.000        +0.088        +0.020      +0.000     +0.088       +0.068      
    
 Step 98 - Y FOV Range
-Result            dd    +0.0000       +0.0033       +0.0200     -0.0200    +0.0033      +           
+Result            dd    +0.000        +0.029        +0.020      -0.020     +0.029       +0.009      
    
-Step 102 - [040 Optics Verification]: Rotational Alignment
-Result            dd    +0.0000       -0.0060       +0.0028     -0.0028    -0.0060      -0.0032     
-   
-Step 103 - [040 Optics Verification]: LowMag Dot Chase
-Result            dd    +0.0000       +0.0092       +0.0200     -0.0200    +0.0092      ++          
-   
-====================================================================================================
-
-============================ END OF INSPECTION - Elapsed Time  00:02:06 ============================
-Machine Serial Number:  SFD2001052                                                       Page:    1
-====================================================================================================
-Routine Name                                                    Run #            Date & Time        
-====================================================================================================
-MFG_LF101-097D_SX_Rotational_Dot_Chase.mxy                   2         Friday, May 20, 2016 11:44:22
-====================================================================================================
-
-ID:MDYzMDE1fjEyLjM5fk1GR19TRkQ0MDAxMDAxX1NYX1JvdGF0aW9uYWxfRG90X0NoYXNl
-032216~10.09~MFG_LF101-097D_SX_Rotational_Dot_Chase
-====================================================================================================
-Feature           Unit    Nominal       Actual          Tolerances           Deviation     Exceeded 
-====================================================================================================
-Step 68 - Y Rotation
-Result            dd    +0.0000       +0.0006       +0.0028     -0.0028    +0.0006      +           
-   
-Step 69 - X FOV Range
-Result            dd    +0.0000       +0.0027       +0.0200     +0.0000    +0.0027      +++         
-   
-Step 70 - Y FOV Range
-Result            dd    +0.0000       +0.0033       +0.0200     -0.0200    +0.0033      +           
-   
-Step 82 - Y Rotation
-Result            dd    +0.0000       -0.0023       +0.0028     -0.0028    -0.0023      ----        
-   
-Step 83 - X FOV Range
-Result            dd    +0.0000       +0.0033       +0.0200     +0.0000    +0.0033      +++         
-   
-Step 84 - Y FOV Range
-Result            dd    +0.0000       +0.0027       +0.0200     -0.0200    +0.0027      +           
-   
-Step 96 - Y Rotation
-Result            dd    +0.0000       +0.0020       +0.0028     -0.0028    +0.0020      +++         
-   
-Step 97 - X FOV Range
-Result            dd    +0.0000       +0.0049       +0.0200     +0.0000    +0.0049      +++         
-   
-Step 98 - Y FOV Range
-Result            dd    +0.0000       +0.0047       +0.0200     -0.0200    +0.0047      +           
-   
-Step 102 - [040 Optics Verification]: Rotational Alignment
-Result            dd    +0.0000       -0.0023       +0.0028     -0.0028    -0.0023      ----        
+Step 100 - [040 Optics Verification]: Rotational Alignment
+Result            dd    +0.000        +0.033        +0.003      -0.003     +0.033       +0.030      
    
 Step 103 - [040 Optics Verification]: LowMag Dot Chase
-Result            dd    +0.0000       +0.0049       +0.0200     -0.0200    +0.0049      +           
+Result            dd    +0.000        +0.105        +0.020      -0.020     +0.105       +0.085      
    
 ====================================================================================================
 
-============================ END OF INSPECTION - Elapsed Time  00:00:08 ============================
+============================ END OF INSPECTION - Elapsed Time  00:01:15 ============================

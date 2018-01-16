@@ -10346,3 +10346,21 @@ min time between patches = 0.000000
 Strobewire IS being used 
 FOUND Z         = +2.370788    
 CALC Focus ... PASSED! 
+================================================
+F O C U S   D I A G N O S T I C S 
+Table index : 6  
+Step size: 400.00 microns (24 counts)    
+Max Velocity: 21238   
+Min Contrast: 0       
+Max Contrast: 0 
+ #|  ----Z---- Diff  Dev %Dev | -CONTRAST - Diff 
+vertical sync (ms)   =  25.847000 
+patch grabs per second = 38.689210 
+average time = 0.000091 
+patch transfer = 0.000017 
+time before patch overwrite = 0.000000 
+max time between patches = 0.000000 
+min time between patches = 0.000000 
+Strobewire IS being used 
+FOUND Z         = +0.000000    
+CALC Focus ... PASSED! 

@@ -12437,3 +12437,742 @@ Calibration Position #4: X = 319.687129, Y = 239.675460
 #->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
 4->3: 	 323.965341 	| 240.520462 	| 90.868797 	| 319.755997 	| 239.660137 	| 120.884074 	| -0.000713 	| 0.000126 	| -0.000127 	| -0.000028 	| 3.224263 	| 0.001081 	| 3.233900 	| 0.000000
 
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.674986, Y = 240.469197
+Calibration Position #4: X = 319.687129, Y = 239.675460
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.942627 	| 240.546506 	| 90.869397 	| 319.717642 	| 239.660999 	| 120.888031 	| -0.000657 	| 0.000190 	| -0.000056 	| -0.000027 	| 3.224589 	| 0.001145 	| 3.234170 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.674986, Y = 240.469197
+Calibration Position #4: X = 319.687129, Y = 239.675460
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.656880 	| 240.380783 	| 90.792406 	| 319.755981 	| 239.686201 	| 120.852208 	| 0.000044 	| -0.000217 	| -0.000127 	| 0.000020 	| 0.326623 	| 0.000738 	| 0.335910 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.674986, Y = 240.469197
+Calibration Position #4: X = 319.687129, Y = 239.675460
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.683546 	| 240.296942 	| 90.799996 	| 319.764793 	| 239.657211 	| 120.849433 	| -0.000021 	| -0.000423 	| -0.000144 	| -0.000034 	| 0.361118 	| 0.000532 	| 0.370470 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.674986, Y = 240.469197
+Calibration Position #4: X = 319.687129, Y = 239.675460
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.922325 	| 240.450777 	| 90.851363 	| 319.778144 	| 239.675953 	| 120.873687 	| -0.000607 	| -0.000045 	| -0.000168 	| 0.000001 	| 3.008632 	| 0.000910 	| 3.018190 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.674986, Y = 240.469197
+Calibration Position #4: X = 319.687129, Y = 239.675460
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.928738 	| 240.517758 	| 90.863279 	| 319.743322 	| 239.678907 	| 120.882841 	| -0.000623 	| 0.000119 	| -0.000104 	| 0.000006 	| 3.008966 	| 0.001074 	| 3.018540 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.928738, Y = 240.517758
+Calibration Position #4: X = 319.743322, Y = 239.678907
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.730336 	| 240.154873 	| 90.799542 	| 319.855136 	| 239.672025 	| 120.845705 	| 0.000487 	| -0.000891 	| -0.000207 	| -0.000013 	| 0.331156 	| 0.000064 	| 0.340000 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.928738, Y = 240.517758
+Calibration Position #4: X = 319.743322, Y = 239.678907
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.956542 	| 240.331993 	| 90.849945 	| 319.848908 	| 239.662059 	| 120.858194 	| -0.000068 	| -0.000456 	| -0.000195 	| -0.000031 	| 3.103123 	| 0.000499 	| 3.112130 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.928738, Y = 240.517758
+Calibration Position #4: X = 319.743322, Y = 239.678907
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.633085 	| 240.386162 	| 90.795340 	| 319.804528 	| 239.739170 	| 120.850354 	| 0.000726 	| -0.000323 	| -0.000113 	| 0.000112 	| 0.331944 	| 0.000632 	| 0.340550 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.928738, Y = 240.517758
+Calibration Position #4: X = 319.743322, Y = 239.678907
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.915447 	| 240.401140 	| 90.831659 	| 319.838048 	| 239.699273 	| 120.860150 	| 0.000033 	| -0.000286 	| -0.000175 	| 0.000038 	| 3.104484 	| 0.000669 	| 3.113390 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.928738, Y = 240.517758
+Calibration Position #4: X = 319.743322, Y = 239.678907
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.680289 	| 240.344359 	| 90.797564 	| 319.761940 	| 239.695174 	| 120.853840 	| 0.000610 	| -0.000426 	| -0.000034 	| 0.000030 	| 0.312699 	| 0.000529 	| 0.321420 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.928738, Y = 240.517758
+Calibration Position #4: X = 319.743322, Y = 239.678907
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.674451 	| 240.375995 	| 90.811860 	| 319.682890 	| 239.670373 	| 120.871602 	| 0.000624 	| -0.000348 	| 0.000112 	| -0.000016 	| 0.212863 	| 0.000607 	| 0.221570 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.928738, Y = 240.517758
+Calibration Position #4: X = 319.743322, Y = 239.678907
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.654376 	| 240.344783 	| 90.788945 	| 319.792883 	| 239.732379 	| 120.847622 	| 0.000674 	| -0.000425 	| -0.000092 	| 0.000099 	| 0.304492 	| 0.000530 	| 0.313150 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.928738, Y = 240.517758
+Calibration Position #4: X = 319.743322, Y = 239.678907
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.891170 	| 240.330340 	| 90.830643 	| 319.834694 	| 239.703968 	| 120.852610 	| 0.000092 	| -0.000460 	| -0.000169 	| 0.000046 	| 3.247551 	| 0.000495 	| 3.256380 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.928738, Y = 240.517758
+Calibration Position #4: X = 319.743322, Y = 239.678907
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.921529 	| 240.509609 	| 90.852554 	| 319.802057 	| 239.720774 	| 120.866796 	| 0.000018 	| -0.000020 	| -0.000109 	| 0.000077 	| 3.247357 	| 0.000935 	| 3.256260 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.928738, Y = 240.517758
+Calibration Position #4: X = 319.743322, Y = 239.678907
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.942472 	| 240.506782 	| 90.857266 	| 319.771879 	| 239.699861 	| 120.877272 	| -0.000034 	| -0.000027 	| -0.000053 	| 0.000039 	| 3.247465 	| 0.000928 	| 3.256420 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.928738, Y = 240.517758
+Calibration Position #4: X = 319.743322, Y = 239.678907
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.695138 	| 240.219940 	| 90.799391 	| 319.833875 	| 239.708091 	| 120.843349 	| 0.000573 	| -0.000731 	| -0.000168 	| 0.000054 	| 0.315222 	| 0.000224 	| 0.323980 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.928738, Y = 240.517758
+Calibration Position #4: X = 319.743322, Y = 239.678907
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.937478 	| 240.452776 	| 90.848262 	| 319.845800 	| 239.712299 	| 120.859332 	| -0.000021 	| -0.000159 	| -0.000190 	| 0.000062 	| 3.084937 	| 0.000795 	| 3.093900 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.928738, Y = 240.517758
+Calibration Position #4: X = 319.743322, Y = 239.678907
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.941042 	| 240.455196 	| 90.844406 	| 319.843064 	| 239.710430 	| 120.860222 	| -0.000030 	| -0.000154 	| -0.000185 	| 0.000058 	| 3.085519 	| 0.000801 	| 3.094490 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.928738, Y = 240.517758
+Calibration Position #4: X = 319.743322, Y = 239.678907
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.950470 	| 240.511988 	| 90.863720 	| 319.794262 	| 239.655134 	| 120.877995 	| -0.000053 	| -0.000014 	| -0.000094 	| -0.000044 	| 3.085536 	| 0.000941 	| 3.094530 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.928738, Y = 240.517758
+Calibration Position #4: X = 319.743322, Y = 239.678907
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.949130 	| 240.515882 	| 90.864963 	| 319.792726 	| 239.697439 	| 120.878410 	| -0.000050 	| -0.000005 	| -0.000091 	| 0.000034 	| 3.085579 	| 0.000950 	| 3.094570 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.928738, Y = 240.517758
+Calibration Position #4: X = 319.743322, Y = 239.678907
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.914795 	| 240.552683 	| 90.859026 	| 319.772065 	| 239.699633 	| 120.877320 	| 0.000034 	| 0.000086 	| -0.000053 	| 0.000038 	| 3.400152 	| 0.001041 	| 3.409020 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.928738, Y = 240.517758
+Calibration Position #4: X = 319.743322, Y = 239.678907
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.948183 	| 240.520490 	| 90.857908 	| 319.779464 	| 239.685671 	| 120.880220 	| -0.000048 	| 0.000007 	| -0.000067 	| 0.000013 	| 3.400140 	| 0.000962 	| 3.409090 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.928738, Y = 240.517758
+Calibration Position #4: X = 319.743322, Y = 239.678907
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.940815 	| 240.536702 	| 90.862737 	| 319.774697 	| 239.689289 	| 120.878352 	| -0.000030 	| 0.000046 	| -0.000058 	| 0.000019 	| 4.565797 	| 0.001001 	| 4.574570 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.928738, Y = 240.517758
+Calibration Position #4: X = 319.743322, Y = 239.678907
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.948730 	| 240.543956 	| 90.864392 	| 319.771764 	| 239.685831 	| 120.881438 	| -0.000049 	| 0.000064 	| -0.000053 	| 0.000013 	| 3.313758 	| 0.001019 	| 3.322720 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.928738, Y = 240.517758
+Calibration Position #4: X = 319.743322, Y = 239.678907
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.708015 	| 240.332686 	| 90.804443 	| 319.784172 	| 239.702017 	| 120.854232 	| 0.000542 	| -0.000454 	| -0.000076 	| 0.000043 	| 0.332041 	| 0.000501 	| 0.340830 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.708015, Y = 240.332686
+Calibration Position #4: X = 319.784172, Y = 239.702017
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.948632 	| 240.551088 	| 90.870867 	| 319.733067 	| 239.680140 	| 120.884991 	| -0.000591 	| 0.000536 	| 0.000095 	| -0.000040 	| 2.943760 	| 0.001491 	| 2.953310 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.708015, Y = 240.332686
+Calibration Position #4: X = 319.784172, Y = 239.702017
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.950040 	| 240.549963 	| 90.868304 	| 319.723480 	| 239.676503 	| 120.885777 	| -0.000594 	| 0.000533 	| 0.000112 	| -0.000047 	| 2.943247 	| 0.001488 	| 2.952800 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.708015, Y = 240.332686
+Calibration Position #4: X = 319.784172, Y = 239.702017
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.934630 	| 240.473351 	| 90.858541 	| 319.784570 	| 239.688014 	| 120.874049 	| -0.000556 	| 0.000345 	| -0.000001 	| -0.000026 	| 0.329012 	| 0.001300 	| 0.338900 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.708015, Y = 240.332686
+Calibration Position #4: X = 319.784172, Y = 239.702017
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.964088 	| 240.497673 	| 90.868337 	| 319.778713 	| 239.683940 	| 120.880673 	| -0.000629 	| 0.000405 	| 0.000010 	| -0.000033 	| 2.959354 	| 0.001360 	| 2.968940 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.708015, Y = 240.332686
+Calibration Position #4: X = 319.784172, Y = 239.702017
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.944782 	| 240.541118 	| 90.868678 	| 319.738727 	| 239.683914 	| 120.885127 	| -0.000581 	| 0.000512 	| 0.000084 	| -0.000034 	| 2.959002 	| 0.001467 	| 2.968540 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.708015, Y = 240.332686
+Calibration Position #4: X = 319.784172, Y = 239.702017
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.934599 	| 240.539705 	| 90.873092 	| 319.725477 	| 239.680352 	| 120.884808 	| -0.000556 	| 0.000508 	| 0.000109 	| -0.000040 	| 2.943165 	| 0.001463 	| 2.952680 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.708015, Y = 240.332686
+Calibration Position #4: X = 319.784172, Y = 239.702017
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.895649 	| 240.295804 	| 90.837401 	| 319.795477 	| 239.636185 	| 120.859169 	| -0.000461 	| -0.000091 	| -0.000021 	| -0.000122 	| 0.329068 	| 0.000864 	| 0.338860 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.708015, Y = 240.332686
+Calibration Position #4: X = 319.784172, Y = 239.702017
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.768959 	| 240.682690 	| 90.839482 	| 319.638326 	| 239.712283 	| 120.884901 	| -0.000150 	| 0.000859 	| 0.000270 	| 0.000019 	| 0.328789 	| 0.001814 	| 0.338270 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.708015, Y = 240.332686
+Calibration Position #4: X = 319.784172, Y = 239.702017
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.921176 	| 240.522657 	| 90.866238 	| 319.707926 	| 239.668567 	| 120.889519 	| -0.000523 	| 0.000466 	| 0.000141 	| -0.000062 	| 0.246205 	| 0.001421 	| 0.256060 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.708015, Y = 240.332686
+Calibration Position #4: X = 319.784172, Y = 239.702017
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.926264 	| 240.491737 	| 90.871080 	| 319.711833 	| 239.659604 	| 120.889062 	| -0.000536 	| 0.000390 	| 0.000134 	| -0.000078 	| 2.863685 	| 0.001345 	| 2.873190 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.708015, Y = 240.332686
+Calibration Position #4: X = 319.784172, Y = 239.702017
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.911191 	| 240.522922 	| 90.868407 	| 319.703412 	| 239.667018 	| 120.890425 	| -0.000499 	| 0.000467 	| 0.000149 	| -0.000065 	| 2.863962 	| 0.001422 	| 2.873430 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.708015, Y = 240.332686
+Calibration Position #4: X = 319.784172, Y = 239.702017
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.684567 	| 240.358658 	| 90.812354 	| 319.734895 	| 239.660723 	| 120.864566 	| 0.000058 	| 0.000064 	| 0.000091 	| -0.000076 	| 0.312776 	| 0.001019 	| 0.322050 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.829720, Y = 240.226955
+Calibration Position #4: X = 319.822141, Y = 239.627864
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.835164 	| 240.236986 	| 90.824085 	| 319.824089 	| 239.630900 	| 120.864516 	| -0.000013 	| 0.000025 	| -0.000004 	| 0.000006 	| 2.961928 	| 0.001093 	| 2.970830 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.829720, Y = 240.226955
+Calibration Position #4: X = 319.822141, Y = 239.627864
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.881425 	| 240.290105 	| 90.821205 	| 319.827817 	| 239.645779 	| 120.864318 	| -0.000127 	| 0.000155 	| -0.000011 	| 0.000033 	| 2.908028 	| 0.001223 	| 2.917050 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.829720, Y = 240.226955
+Calibration Position #4: X = 319.822141, Y = 239.627864
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.907451 	| 240.440285 	| 90.840609 	| 319.816089 	| 239.683977 	| 120.868070 	| -0.000191 	| 0.000524 	| 0.000011 	| 0.000104 	| 2.951229 	| 0.001592 	| 2.960310 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.829720, Y = 240.226955
+Calibration Position #4: X = 319.822141, Y = 239.627864
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.847704 	| 240.677280 	| 90.838962 	| 319.763908 	| 239.744311 	| 120.881741 	| -0.000044 	| 0.001105 	| 0.000108 	| 0.000215 	| 0.329042 	| 0.002174 	| 0.338350 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.829720, Y = 240.226955
+Calibration Position #4: X = 319.822141, Y = 239.627864
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.944818 	| 240.520287 	| 90.859001 	| 319.775849 	| 239.685657 	| 120.885784 	| -0.000283 	| 0.000720 	| 0.000086 	| 0.000107 	| 1.706977 	| 0.001788 	| 1.716340 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.829720, Y = 240.226955
+Calibration Position #4: X = 319.822141, Y = 239.627864
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.950720 	| 240.524146 	| 90.858436 	| 319.774674 	| 239.689307 	| 120.889076 	| -0.000297 	| 0.000729 	| 0.000088 	| 0.000114 	| 2.943212 	| 0.001798 	| 2.952400 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.829720, Y = 240.226955
+Calibration Position #4: X = 319.822141, Y = 239.627864
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.931802 	| 240.515718 	| 90.859516 	| 319.767321 	| 239.685349 	| 120.887985 	| -0.000251 	| 0.000709 	| 0.000101 	| 0.000106 	| 2.943178 	| 0.001777 	| 2.952320 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.829720, Y = 240.226955
+Calibration Position #4: X = 319.822141, Y = 239.627864
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.952044 	| 240.551283 	| 90.861801 	| 319.756063 	| 239.680888 	| 120.893774 	| -0.000300 	| 0.000796 	| 0.000122 	| 0.000098 	| 2.943329 	| 0.001864 	| 2.952520 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.829720, Y = 240.226955
+Calibration Position #4: X = 319.822141, Y = 239.627864
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.945693 	| 240.559610 	| 90.864484 	| 319.754075 	| 239.681960 	| 120.894525 	| -0.000285 	| 0.000816 	| 0.000126 	| 0.000100 	| 3.264014 	| 0.001885 	| 3.273150 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.829720, Y = 240.226955
+Calibration Position #4: X = 319.822141, Y = 239.627864
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.933420 	| 240.535697 	| 90.855371 	| 319.746202 	| 239.677418 	| 120.891731 	| -0.000255 	| 0.000758 	| 0.000141 	| 0.000092 	| 2.943294 	| 0.001826 	| 2.952440 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.829720, Y = 240.226955
+Calibration Position #4: X = 319.822141, Y = 239.627864
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.922861 	| 240.549759 	| 90.858908 	| 319.736764 	| 239.686354 	| 120.891580 	| -0.000229 	| 0.000792 	| 0.000158 	| 0.000108 	| 2.943080 	| 0.001861 	| 2.952200 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.829720, Y = 240.226955
+Calibration Position #4: X = 319.822141, Y = 239.627864
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.916395 	| 240.520684 	| 90.861991 	| 319.721744 	| 239.678645 	| 120.894677 	| -0.000213 	| 0.000721 	| 0.000186 	| 0.000094 	| 2.943576 	| 0.001789 	| 2.952680 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.829720, Y = 240.226955
+Calibration Position #4: X = 319.822141, Y = 239.627864
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.945617 	| 240.520724 	| 90.867325 	| 319.725704 	| 239.677502 	| 120.900025 	| -0.000284 	| 0.000721 	| 0.000178 	| 0.000092 	| 2.944805 	| 0.001789 	| 2.953980 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.829720, Y = 240.226955
+Calibration Position #4: X = 319.822141, Y = 239.627864
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.936978 	| 240.539243 	| 90.864691 	| 319.722405 	| 239.676041 	| 120.897744 	| -0.000263 	| 0.000766 	| 0.000185 	| 0.000089 	| 2.944546 	| 0.001835 	| 2.953700 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.829720, Y = 240.226955
+Calibration Position #4: X = 319.822141, Y = 239.627864
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.938660 	| 240.538104 	| 90.864746 	| 319.719747 	| 239.675645 	| 120.895192 	| -0.000267 	| 0.000764 	| 0.000190 	| 0.000088 	| 2.944152 	| 0.001832 	| 2.953310 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.829720, Y = 240.226955
+Calibration Position #4: X = 319.822141, Y = 239.627864
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.797658 	| 240.243152 	| 90.817274 	| 319.773112 	| 239.610835 	| 120.868304 	| 0.000079 	| 0.000040 	| 0.000091 	| -0.000032 	| 0.299945 	| 0.001108 	| 0.309130 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.829720, Y = 240.226955
+Calibration Position #4: X = 319.822141, Y = 239.627864
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.929675 	| 240.416953 	| 90.850790 	| 319.787487 	| 239.660905 	| 120.883748 	| -0.000245 	| 0.000466 	| 0.000064 	| 0.000061 	| 2.889877 	| 0.001535 	| 2.899020 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.829720, Y = 240.226955
+Calibration Position #4: X = 319.822141, Y = 239.627864
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.944547 	| 240.449462 	| 90.841792 	| 319.784622 	| 239.671047 	| 120.877753 	| -0.000282 	| 0.000546 	| 0.000069 	| 0.000080 	| 2.972481 	| 0.001614 	| 2.981650 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.829720, Y = 240.226955
+Calibration Position #4: X = 319.822141, Y = 239.627864
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.937274 	| 240.459644 	| 90.848298 	| 319.782859 	| 239.673371 	| 120.878705 	| -0.000264 	| 0.000571 	| 0.000073 	| 0.000084 	| 1.511246 	| 0.001639 	| 1.520630 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.829720, Y = 240.226955
+Calibration Position #4: X = 319.822141, Y = 239.627864
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.930607 	| 240.468130 	| 90.841495 	| 319.779475 	| 239.680520 	| 120.875979 	| -0.000248 	| 0.000592 	| 0.000079 	| 0.000097 	| 2.782771 	| 0.001660 	| 2.791930 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.829720, Y = 240.226955
+Calibration Position #4: X = 319.822141, Y = 239.627864
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.931664 	| 240.469649 	| 90.844038 	| 319.778799 	| 239.681096 	| 120.878523 	| -0.000250 	| 0.000596 	| 0.000080 	| 0.000099 	| 3.028739 	| 0.001664 	| 3.037870 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.829720, Y = 240.226955
+Calibration Position #4: X = 319.822141, Y = 239.627864
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.932397 	| 240.478646 	| 90.842826 	| 319.777680 	| 239.678528 	| 120.878318 	| -0.000252 	| 0.000618 	| 0.000082 	| 0.000094 	| 2.943337 	| 0.001686 	| 2.952480 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.829720, Y = 240.226955
+Calibration Position #4: X = 319.822141, Y = 239.627864
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.909380 	| 240.488043 	| 90.852260 	| 319.719228 	| 239.671530 	| 120.898006 	| -0.000196 	| 0.000641 	| 0.000190 	| 0.000081 	| 2.943113 	| 0.001709 	| 2.952200 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.829720, Y = 240.226955
+Calibration Position #4: X = 319.822141, Y = 239.627864
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.920666 	| 240.507216 	| 90.858726 	| 319.714606 	| 239.679062 	| 120.892991 	| -0.000223 	| 0.000688 	| 0.000199 	| 0.000095 	| 0.410203 	| 0.001756 	| 0.419690 	| 0.000000
+
+================ FindAccucentrigRingCCV FAILED: Index: 4,  Center X: x = 319.822140579, y = 239.627863964
+
+================ FindAccucentrigRingCCV FAILED: Index: 4,  Center X: x = 319.822140579, y = 239.627863964
+
+================ FindAccucentrigRingCCV FAILED: Index: 4,  Center X: x = 319.822140579, y = 239.627863964
+
+================ FindAccucentrigRingCCV FAILED: Index: 4,  Center X: x = 319.822140579, y = 239.627863964
+
+================ FindAccucentrigRingCCV FAILED: Index: 4,  Center X: x = 319.822140579, y = 239.627863964
+
+================ FindAccucentrigRingCCV FAILED: Index: 4,  Center X: x = 319.822140579, y = 239.627863964
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.829720, Y = 240.226955
+Calibration Position #4: X = 319.822141, Y = 239.627864
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.943953 	| 240.500788 	| 90.866811 	| 319.718484 	| 239.675033 	| 120.898851 	| -0.000280 	| 0.000672 	| 0.000192 	| 0.000087 	| 0.506516 	| 0.001740 	| 0.516060 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.829720, Y = 240.226955
+Calibration Position #4: X = 319.822141, Y = 239.627864
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.940375 	| 240.513179 	| 90.860451 	| 319.713697 	| 239.678150 	| 120.897106 	| -0.000272 	| 0.000703 	| 0.000201 	| 0.000093 	| 0.481965 	| 0.001771 	| 0.491500 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.829720, Y = 240.226955
+Calibration Position #4: X = 319.822141, Y = 239.627864
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.948156 	| 240.490995 	| 90.861834 	| 319.716902 	| 239.672878 	| 120.897358 	| -0.000291 	| 0.000648 	| 0.000195 	| 0.000083 	| 0.791655 	| 0.001716 	| 0.801180 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.829720, Y = 240.226955
+Calibration Position #4: X = 319.822141, Y = 239.627864
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.676230 	| 240.327906 	| 90.795304 	| 319.772244 	| 239.689890 	| 120.854301 	| 0.000377 	| 0.000248 	| 0.000092 	| 0.000115 	| 0.298003 	| 0.001316 	| 0.306890 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.829720, Y = 240.226955
+Calibration Position #4: X = 319.822141, Y = 239.627864
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.943182 	| 240.358296 	| 90.834763 	| 319.818104 	| 239.678620 	| 120.871618 	| -0.000279 	| 0.000322 	| 0.000007 	| 0.000094 	| 3.076827 	| 0.001391 	| 3.085980 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.982686, Y = 240.575567
+Calibration Position #4: X = 319.720080, Y = 239.686776
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.985348 	| 240.579240 	| 90.913517 	| 319.723116 	| 239.693383 	| 120.900566 	| -0.000007 	| 0.000009 	| -0.000006 	| 0.000012 	| 2.936770 	| 0.001768 	| 2.946140 	| 0.000000
+
+================ FindAccucentrigRingCCV FAILED: Index: 4,  Center X: x = 319.723116033, y = 239.693383141
+
+3->4: 	 323.952632 	| 240.572360 	| 90.906427 	| 322.791088 	| 239.749946 	| 120.869582 	| 0.000080 	| -0.000017 	| -0.005678 	| 0.000105 	| 3.031091 	| -0.000519 	| 3.035390 	| 0.000000
+
+4->3: 	 323.947763 	| 240.570472 	| 90.900413 	| 319.715784 	| 239.682392 	| 120.894645 	| 0.000092 	| -0.000022 	| 0.000014 	| -0.000020 	| 3.026511 	| 0.001746 	| 3.035390 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.982686, Y = 240.575567
+Calibration Position #4: X = 319.720080, Y = 239.686776
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.953822 	| 240.549032 	| 90.904798 	| 319.724886 	| 239.681627 	| 120.896577 	| 0.000071 	| -0.000065 	| -0.000009 	| -0.000010 	| 3.026359 	| 0.001694 	| 3.035390 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.982686, Y = 240.575567
+Calibration Position #4: X = 319.720080, Y = 239.686776
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.913472 	| 240.370935 	| 90.893047 	| 319.733626 	| 239.652550 	| 120.884633 	| 0.000170 	| -0.000502 	| -0.000025 	| -0.000063 	| 0.294685 	| 0.001256 	| 0.304250 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.982686, Y = 240.575567
+Calibration Position #4: X = 319.720080, Y = 239.686776
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.941985 	| 240.459495 	| 90.895280 	| 319.727087 	| 239.675134 	| 120.889325 	| 0.000100 	| -0.000285 	| -0.000013 	| -0.000022 	| 3.007563 	| 0.001474 	| 3.016570 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.941985, Y = 240.459495
+Calibration Position #4: X = 319.727087, Y = 239.675134
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.706298 	| 240.355472 	| 90.969003 	| 319.744488 	| 239.702769 	| 120.908161 	| 0.000579 	| -0.000255 	| -0.000032 	| 0.000051 	| 0.320604 	| 0.001503 	| 0.329760 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.941985, Y = 240.459495
+Calibration Position #4: X = 319.727087, Y = 239.675134
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.919378 	| 240.298035 	| 90.886211 	| 319.791958 	| 239.663068 	| 120.872079 	| 0.000055 	| -0.000396 	| -0.000120 	| -0.000022 	| 3.007329 	| 0.001362 	| 3.016380 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.941985, Y = 240.459495
+Calibration Position #4: X = 319.727087, Y = 239.675134
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.929715 	| 240.517531 	| 90.901007 	| 319.703934 	| 239.680583 	| 120.896968 	| 0.000030 	| 0.000142 	| 0.000043 	| 0.000010 	| 3.006983 	| 0.001901 	| 3.016060 	| 0.000000
+
+================ FindAccucentrigRingCCV FAILED: Index: 4,  Center X: x = 319.727086632, y = 239.675133541
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.941985, Y = 240.459495
+Calibration Position #4: X = 319.727087, Y = 239.675134
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.932855 	| 240.513123 	| 90.932119 	| 319.698093 	| 239.678416 	| 120.906824 	| 0.000022 	| 0.000132 	| 0.000054 	| 0.000006 	| 2.943299 	| 0.001890 	| 2.952400 	| 0.000000
+
+================ FindAccucentrigRingCCV FAILED: Index: 4,  Center X: x = 319.727086632, y = 239.675133541
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.941985, Y = 240.459495
+Calibration Position #4: X = 319.727087, Y = 239.675134
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.933554 	| 240.505527 	| 90.932120 	| 319.697949 	| 239.672745 	| 120.909564 	| 0.000021 	| 0.000113 	| 0.000054 	| -0.000004 	| 2.943137 	| 0.001872 	| 2.952240 	| 0.000000
+
+================ FindAccucentrigRingCCV FAILED: Index: 4,  Center X: x = 319.727086632, y = 239.675133541
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.941985, Y = 240.459495
+Calibration Position #4: X = 319.727087, Y = 239.675134
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.932146 	| 240.509168 	| 90.939680 	| 319.698931 	| 239.675278 	| 120.910167 	| 0.000024 	| 0.000122 	| 0.000052 	| 0.000000 	| 2.945311 	| 0.001881 	| 2.954410 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.941985, Y = 240.459495
+Calibration Position #4: X = 319.727087, Y = 239.675134
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.943146 	| 240.496295 	| 90.939715 	| 319.702610 	| 239.678246 	| 120.912790 	| -0.000003 	| 0.000090 	| 0.000045 	| 0.000006 	| 2.945204 	| 0.001849 	| 2.954330 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.941985, Y = 240.459495
+Calibration Position #4: X = 319.727087, Y = 239.675134
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.710374 	| 240.289533 	| 90.892141 	| 319.809306 	| 239.721108 	| 120.872812 	| 0.000569 	| -0.000417 	| -0.000152 	| 0.000085 	| 0.327404 	| 0.001341 	| 0.336570 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.941985, Y = 240.459495
+Calibration Position #4: X = 319.727087, Y = 239.675134
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.757059 	| 240.360192 	| 90.978757 	| 319.773591 	| 239.683466 	| 120.908865 	| 0.000454 	| -0.000244 	| -0.000086 	| 0.000015 	| 0.290679 	| 0.001515 	| 0.299960 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.941985, Y = 240.459495
+Calibration Position #4: X = 319.727087, Y = 239.675134
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.930326 	| 240.488174 	| 90.931069 	| 319.782798 	| 239.688254 	| 120.908630 	| 0.000029 	| 0.000070 	| -0.000103 	| 0.000024 	| 2.943145 	| 0.001829 	| 2.952240 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.941985, Y = 240.459495
+Calibration Position #4: X = 319.727087, Y = 239.675134
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.906676 	| 240.465155 	| 91.338568 	| 319.771435 	| 239.691833 	| 121.093783 	| 0.000087 	| 0.000014 	| -0.000082 	| 0.000031 	| 0.329602 	| 0.001773 	| 0.339250 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.941985, Y = 240.459495
+Calibration Position #4: X = 319.727087, Y = 239.675134
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.922684 	| 240.514109 	| 90.919850 	| 319.770131 	| 239.695114 	| 120.889468 	| 0.000047 	| 0.000134 	| -0.000080 	| 0.000037 	| 2.960888 	| 0.001893 	| 2.969960 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.941985, Y = 240.459495
+Calibration Position #4: X = 319.727087, Y = 239.675134
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.960362 	| 240.544616 	| 90.905996 	| 319.781179 	| 239.704481 	| 120.888909 	| -0.000045 	| 0.000209 	| -0.000100 	| 0.000054 	| 0.638047 	| 0.001968 	| 0.647800 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.941985, Y = 240.459495
+Calibration Position #4: X = 319.727087, Y = 239.675134
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.947437 	| 240.551167 	| 90.905830 	| 319.779020 	| 239.701307 	| 120.885760 	| -0.000013 	| 0.000225 	| -0.000096 	| 0.000048 	| 2.942913 	| 0.001984 	| 2.952050 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.941985, Y = 240.459495
+Calibration Position #4: X = 319.727087, Y = 239.675134
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.948081 	| 240.537668 	| 90.905412 	| 319.779478 	| 239.694179 	| 120.886602 	| -0.000015 	| 0.000192 	| -0.000097 	| 0.000035 	| 2.942831 	| 0.001951 	| 2.951970 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.941985, Y = 240.459495
+Calibration Position #4: X = 319.727087, Y = 239.675134
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.947084 	| 240.539110 	| 90.905484 	| 319.774108 	| 239.685763 	| 120.887416 	| -0.000013 	| 0.000195 	| -0.000087 	| 0.000020 	| 2.942514 	| 0.001954 	| 2.951650 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.941985, Y = 240.459495
+Calibration Position #4: X = 319.727087, Y = 239.675134
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.960125 	| 240.537216 	| 90.903837 	| 319.775379 	| 239.689916 	| 120.886668 	| -0.000045 	| 0.000191 	| -0.000089 	| 0.000027 	| 0.608858 	| 0.001949 	| 0.618620 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.941985, Y = 240.459495
+Calibration Position #4: X = 319.727087, Y = 239.675134
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.944070 	| 240.555171 	| 90.907275 	| 319.766397 	| 239.697078 	| 120.890361 	| -0.000005 	| 0.000235 	| -0.000073 	| 0.000041 	| 2.943311 	| 0.001993 	| 2.952440 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.941985, Y = 240.459495
+Calibration Position #4: X = 319.727087, Y = 239.675134
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.923420 	| 240.534728 	| 90.905696 	| 319.757157 	| 239.690348 	| 120.888019 	| 0.000046 	| 0.000185 	| -0.000056 	| 0.000028 	| 2.943242 	| 0.001943 	| 2.952320 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.941985, Y = 240.459495
+Calibration Position #4: X = 319.727087, Y = 239.675134
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.946298 	| 240.527711 	| 90.907302 	| 319.760113 	| 239.688211 	| 120.913808 	| -0.000011 	| 0.000167 	| -0.000061 	| 0.000024 	| 2.943066 	| 0.001926 	| 2.952200 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.941985, Y = 240.459495
+Calibration Position #4: X = 319.727087, Y = 239.675134
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.711344 	| 240.402996 	| 90.903286 	| 319.704371 	| 239.680037 	| 120.892898 	| 0.000566 	| -0.000139 	| 0.000042 	| 0.000009 	| 0.249262 	| 0.001620 	| 0.258430 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.941985, Y = 240.459495
+Calibration Position #4: X = 319.727087, Y = 239.675134
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.768021 	| 240.363817 	| 91.010440 	| 319.762233 	| 239.704735 	| 120.931096 	| 0.000427 	| -0.000235 	| -0.000065 	| 0.000055 	| 0.307822 	| 0.001524 	| 0.317130 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.941985, Y = 240.459495
+Calibration Position #4: X = 319.727087, Y = 239.675134
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.771340 	| 240.337112 	| 91.031084 	| 319.822372 	| 239.728138 	| 120.912660 	| 0.000419 	| -0.000300 	| -0.000176 	| 0.000098 	| 0.329384 	| 0.001458 	| 0.338700 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.941985, Y = 240.459495
+Calibration Position #4: X = 319.727087, Y = 239.675134
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.808397 	| 240.138260 	| 90.856289 	| 319.844284 	| 239.649322 	| 120.852411 	| 0.000328 	| -0.000788 	| -0.000217 	| -0.000048 	| 2.960459 	| 0.000970 	| 2.969250 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.941985, Y = 240.459495
+Calibration Position #4: X = 319.727087, Y = 239.675134
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.833673 	| 240.153102 	| 90.853806 	| 319.846323 	| 239.653474 	| 120.853297 	| 0.000266 	| -0.000752 	| -0.000221 	| -0.000040 	| 2.960167 	| 0.001007 	| 2.969020 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.941985, Y = 240.459495
+Calibration Position #4: X = 319.727087, Y = 239.675134
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.844463 	| 240.175011 	| 90.858310 	| 319.849867 	| 239.658521 	| 120.854758 	| 0.000239 	| -0.000698 	| -0.000227 	| -0.000031 	| 2.960330 	| 0.001060 	| 2.969210 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.941985, Y = 240.459495
+Calibration Position #4: X = 319.727087, Y = 239.675134
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.860225 	| 240.192834 	| 90.863484 	| 319.848861 	| 239.662766 	| 120.854784 	| 0.000201 	| -0.000655 	| -0.000225 	| -0.000023 	| 2.960142 	| 0.001104 	| 2.969060 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.941985, Y = 240.459495
+Calibration Position #4: X = 319.727087, Y = 239.675134
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.917807 	| 240.532191 	| 90.896480 	| 319.796167 	| 239.706788 	| 120.882597 	| 0.000059 	| 0.000178 	| -0.000128 	| 0.000059 	| 2.959840 	| 0.001937 	| 2.968900 	| 0.000000
+
+-----------   Initializing References --------------------------
+Method: Absolute
+Calibration Position #3: X = 323.941985, Y = 240.459495
+Calibration Position #4: X = 319.727087, Y = 239.675134
+#->#:    XL             | YL            | DiamL         | XH            | YH            | DiamH         | dXL           | dYL           | dXH           | dYH           | DroX          | DroY          | RawX          | RawY    
+4->3: 	 323.682555 	| 240.357613 	| 90.821177 	| 319.811866 	| 239.738217 	| 120.845509 	| 0.000637 	| -0.000250 	| -0.000157 	| 0.000117 	| 0.313542 	| 0.001509 	| 0.322640 	| 0.000000
+
+4->3: 	 323.943290 	| 240.492299 	| 90.888259 	| 319.828405 	| 239.701680 	| 120.873195 	| -0.000640 	| 0.000331 	| -0.000031 	| -0.000068 	| 2.959938 	| 0.001839 	| 2.969060 	| 0.000000
+
+================ FindAccucentrigRingCCV FAILED: Index: 4,  Center X: x = 319.811866436, y = 239.738217128
+
+3->4: 	 323.944057 	| 240.490909 	| 90.887041 	| 319.824997 	| 239.709664 	| 120.871806 	| -0.000642 	| 0.000327 	| -0.000024 	| -0.000053 	| 2.970111 	| -0.000572 	| 2.969060 	| 0.000000
+
+4->3: 	 323.947133 	| 240.494288 	| 90.886654 	| 319.827683 	| 239.702465 	| 120.871576 	| -0.000650 	| 0.000335 	| -0.000029 	| -0.000066 	| 2.959928 	| 0.001844 	| 2.969060 	| 0.000000
+
+3->4: 	 323.940534 	| 240.501098 	| 90.886843 	| 322.196438 	| 239.720480 	| 120.849795 	| -0.000633 	| 0.000352 	| -0.004413 	| -0.000033 	| 2.965721 	| -0.000552 	| 2.969060 	| 0.000000
+
+================ FindAccucentrigRingCCV FAILED: Index: 4,  Center X: x = 319.811866436, y = 239.738217128
+
+4->3: 	 323.943703 	| 240.496717 	| 90.887839 	| 319.827491 	| 239.707953 	| 120.871584 	| -0.000641 	| 0.000341 	| -0.000029 	| -0.000056 	| 2.959937 	| 0.001850 	| 2.969060 	| 0.000000
+
+================ FindAccucentrigRingCCV FAILED: Index: 4,  Center X: x = 319.811866436, y = 239.738217128
+
+================ FindAccucentrigRingCCV FAILED: Index: 4,  Center X: x = 319.811866436, y = 239.738217128
+
+3->4: 	 323.940890 	| 240.498693 	| 90.889676 	| 319.829617 	| 239.707518 	| 120.872352 	| -0.000634 	| 0.000346 	| -0.000033 	| -0.000057 	| 2.970103 	| -0.000576 	| 2.969060 	| 0.000000
+
+4->3: 	 323.938354 	| 240.509389 	| 90.888903 	| 319.825129 	| 239.706913 	| 120.871397 	| -0.000628 	| 0.000373 	| -0.000025 	| -0.000058 	| 2.959910 	| 0.001881 	| 2.969020 	| 0.000000
+
