@@ -557,7 +557,9 @@ namespace Outputs
             
             Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'ExcelXlsNotepad.Text15'.", repo.ExcelXlsNotepad.Text15Info, new RecordItemIndex(56));
             Host.Current.CloseApplication(repo.ExcelXlsNotepad.Text15, new Duration(0));
-            Delay.Milliseconds(0);            
+            Delay.Milliseconds(0);
+
+      
 
         }
 

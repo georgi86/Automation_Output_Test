@@ -1,4 +1,5 @@
 Outputs/Outputs/bin/
+Outputs/Outputs/obj/
 Outputs/Outputs/lib/
 Outputs/.vs/
 *.suo
