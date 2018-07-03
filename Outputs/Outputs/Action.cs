@@ -73,8 +73,8 @@ namespace Outputs
         [System.CodeDom.Compiler.GeneratedCode("Ranorex", "7.0")]
         void ITestModule.Run()
         {
-            Mouse.DefaultMoveTime = 500;
-            Keyboard.DefaultKeyPressTime = 200;
+            Mouse.DefaultMoveTime = 300;
+            Keyboard.DefaultKeyPressTime = 100;
             Delay.SpeedFactor = 1.00;
 
             Init();
@@ -87,17 +87,17 @@ namespace Outputs
             // "Alt" Button
             Report.Log(ReportLevel.Info, "Keyboard", "\"Alt\" Button\r\nKey sequence '{LMenu}'.", new RecordItemIndex(1));
             Keyboard.Press("{LMenu}");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(100);
 
             // "F" Button
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'f'.", new RecordItemIndex(2));
             Keyboard.Press("f");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(100);
 
             // "O" Button
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'o'.", new RecordItemIndex(3));
             Keyboard.Press("o");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(3000);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left DoubleClick item 'OpenSnapXRoutine.Text1148' at 203;5.", repo.OpenSnapXRoutine.Text1148Info, new RecordItemIndex(4));
             repo.OpenSnapXRoutine.Text1148.DoubleClick("203;5");
@@ -105,15 +105,15 @@ namespace Outputs
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Delete}' with focus on 'OpenSnapXRoutine.Text1148'.", repo.OpenSnapXRoutine.Text1148Info, new RecordItemIndex(5));
             repo.OpenSnapXRoutine.Text1148.PressKeys("{Delete}");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(100);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'D:\\Joro\\GIT_Automations\\AutomationOutputs\\Routine\\AllOutputTypes.mxy'.", new RecordItemIndex(6));
             Keyboard.Press("D:\\Joro\\GIT_Automations\\AutomationOutputs\\Routine\\AllOutputTypes.mxy");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(100);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'OpenSnapXRoutine.Text1148'.", repo.OpenSnapXRoutine.Text1148Info, new RecordItemIndex(7));
             repo.OpenSnapXRoutine.Text1148.PressKeys("{Return}");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(100);
 
             // Click somewhere in the TitleBar to get a focus on all options in the Menu Bar
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SnapXUntitled.SnapXUntitled' at 527;9.", repo.SnapXUntitled.SnapXUntitledInfo, new RecordItemIndex(0));
@@ -123,17 +123,17 @@ namespace Outputs
             // "Alt" Button
             Report.Log(ReportLevel.Info, "Keyboard", "\"Alt\" Button\r\nKey sequence '{LMenu}'.", new RecordItemIndex(1));
             Keyboard.Press("{LMenu}");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(100);
 
             // "F" Button
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'f'.", new RecordItemIndex(2));
             Keyboard.Press("f");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(100);
 
             // "R" Button
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'r'.", new RecordItemIndex(11));
             Keyboard.Press("r");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(100);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SnapXUntitled.ButtonOK' at Center.", repo.SnapXUntitled.ButtonOKInfo, new RecordItemIndex(12));
             repo.SnapXUntitled.ButtonOK.Click();
@@ -149,24 +149,24 @@ namespace Outputs
             // "Alt" Button
             Report.Log(ReportLevel.Info, "Keyboard", "\"Alt\" Button\r\nKey sequence '{LMenu}'.", new RecordItemIndex(1));
             Keyboard.Press("{LMenu}");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(100);
 
             // "F" Button
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'f'.", new RecordItemIndex(2));
             Keyboard.Press("f");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(100);
 
             // "N" Button
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'n'.", new RecordItemIndex(11));
             Keyboard.Press("n");
-            Delay.Milliseconds(0);                        
+            Delay.Milliseconds(100);                        
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(16));
             Delay.Duration(2000, false);
             
             Report.Log(ReportLevel.Info, "Application", "Run application 'D:\\Joro\\GIT_Automations\\AutomationOutputs\\Reports\\statistic.STA' with arguments '' in normal mode.", new RecordItemIndex(17));
             Host.Local.RunApplication("D:\\Joro\\GIT_Automations\\AutomationOutputs\\Reports\\statistic.STA", "", "D:\\Joro\\AUTOMATION\\TESTS\\SnapX\\RegressionOutpurs\\Reports", false);
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(100);
             
             Report.Log(ReportLevel.Info, "Invoke Action", "Invoking Maximize() on item 'StatisticSTANotepad'.", repo.StatisticSTANotepad.SelfInfo, new RecordItemIndex(18));
             repo.StatisticSTANotepad.Self.Maximize();
@@ -213,14 +213,14 @@ namespace Outputs
             
             Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'StatisticSTANotepad.Text15'.", repo.StatisticSTANotepad.Text15Info, new RecordItemIndex(20));
             Host.Current.CloseApplication(repo.StatisticSTANotepad.Text15, new Duration(0));
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(100);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(21));
             Delay.Duration(1000, false);
             
             Report.Log(ReportLevel.Info, "Application", "Run application 'D:\\Joro\\GIT_Automations\\AutomationOutputs\\Reports\\report.sta' with arguments '' in normal mode.", new RecordItemIndex(22));
             Host.Local.RunApplication("D:\\Joro\\GIT_Automations\\AutomationOutputs\\Reports\\report.sta", "", "D:\\Joro\\AUTOMATION\\TESTS\\SnapX\\RegressionOutpurs\\Reports", false);
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(100);
             
             Report.Log(ReportLevel.Info, "Invoke Action", "Invoking Maximize() on item 'ReportStaNotepad'.", repo.ReportStaNotepad.SelfInfo, new RecordItemIndex(23));
             repo.ReportStaNotepad.Self.Maximize();
@@ -273,14 +273,14 @@ namespace Outputs
             
             Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'ReportStaNotepad.Text15'.", repo.ReportStaNotepad.Text15Info, new RecordItemIndex(25));
             Host.Current.CloseApplication(repo.ReportStaNotepad.Text15, new Duration(0));
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(100);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(26));
             Delay.Duration(1000, false);
             
             Report.Log(ReportLevel.Info, "Application", "Run application 'D:\\Joro\\GIT_Automations\\AutomationOutputs\\Reports\\print.PRT' with arguments '' in normal mode.", new RecordItemIndex(27));
             Host.Local.RunApplication("D:\\Joro\\GIT_Automations\\AutomationOutputs\\Reports\\print.PRT", "", "D:\\Joro\\AUTOMATION\\TESTS\\SnapX\\RegressionOutpurs\\Reports", false);
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(100);
             
             Report.Log(ReportLevel.Info, "Invoke Action", "Invoking Maximize() on item 'PrintPRTNotepad'.", repo.PrintPRTNotepad.SelfInfo, new RecordItemIndex(28));
             repo.PrintPRTNotepad.Self.Maximize();
@@ -332,14 +332,14 @@ namespace Outputs
             
             Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'PrintPRTNotepad.Text15'.", repo.PrintPRTNotepad.Text15Info, new RecordItemIndex(30));
             Host.Current.CloseApplication(repo.PrintPRTNotepad.Text15, new Duration(0));
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(100);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(31));
             Delay.Duration(1000, false);
             
             Report.Log(ReportLevel.Info, "Application", "Run application 'D:\\Joro\\GIT_Automations\\AutomationOutputs\\Reports\\export.sta' with arguments '' in normal mode.", new RecordItemIndex(32));
             Host.Local.RunApplication("D:\\Joro\\GIT_Automations\\AutomationOutputs\\Reports\\export.sta", "", "D:\\Joro\\AUTOMATION\\TESTS\\SnapX\\RegressionOutpurs\\Reports", false);
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(100);
             
             Report.Log(ReportLevel.Info, "Invoke Action", "Invoking Maximize() on item 'ExportStaNotepad'.", repo.ExportStaNotepad.SelfInfo, new RecordItemIndex(33));
             repo.ExportStaNotepad.Self.Maximize();
@@ -391,14 +391,14 @@ namespace Outputs
             
             Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'ExportStaNotepad.Text15'.", repo.ExportStaNotepad.Text15Info, new RecordItemIndex(35));
             Host.Current.CloseApplication(repo.ExportStaNotepad.Text15, new Duration(0));
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(100);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(36));
             Delay.Duration(1000, false);
             
             Report.Log(ReportLevel.Info, "Application", "Run application 'D:\\Joro\\GIT_Automations\\AutomationOutputs\\Reports\\datastream.dat' with arguments '' in normal mode.", new RecordItemIndex(37));
             Host.Local.RunApplication("D:\\Joro\\GIT_Automations\\AutomationOutputs\\Reports\\datastream.dat", "", "D:\\Joro\\AUTOMATION\\TESTS\\SnapX\\RegressionOutpurs\\Reports", false);
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(100);
             
             Report.Log(ReportLevel.Info, "Invoke Action", "Invoking Maximize() on item 'DatastreamDatNotepad'.", repo.DatastreamDatNotepad.SelfInfo, new RecordItemIndex(38));
             repo.DatastreamDatNotepad.Self.Maximize();
@@ -450,7 +450,7 @@ namespace Outputs
             
             Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'DatastreamDatNotepad.Text15'.", repo.DatastreamDatNotepad.Text15Info, new RecordItemIndex(40));
             Host.Current.CloseApplication(repo.DatastreamDatNotepad.Text15, new Duration(0));
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(100);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(41));
             Delay.Duration(1000, false);
@@ -460,11 +460,11 @@ namespace Outputs
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{LWin}'.", new RecordItemIndex(42));
             Keyboard.Press("{LWin}");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(100);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'computer'.", new RecordItemIndex(43));
             Keyboard.Press("computer");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(100);
 
             //// "Down Arrow" Button   //This should work in case in which the Computer Management option appears in the first position
             //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Down}'.", new RecordItemIndex(0));
@@ -473,7 +473,7 @@ namespace Outputs
 
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}'.", new RecordItemIndex(44));
             Keyboard.Press("{Return}");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(100);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Computer.ToolBar1001' at Center.", repo.Computer.ToolBar1001Info, new RecordItemIndex(45));
             repo.Computer.ToolBar1001.Click();
@@ -481,7 +481,7 @@ namespace Outputs
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Delete}'.", new RecordItemIndex(46));
             Keyboard.Press("{Delete}");
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(100);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'D:\\Joro\\GIT_Automations\\AutomationOutputs\\Reports'.", new RecordItemIndex(47));
             Keyboard.Press("D:\\Joro\\GIT_Automations\\AutomationOutputs\\Reports");
@@ -489,7 +489,7 @@ namespace Outputs
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}'.", new RecordItemIndex(48));
             Keyboard.Press("{Return}");
-            Delay.Milliseconds(0);                        
+            Delay.Milliseconds(100);                        
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Right Click item 'Computer.SystemItemNameDisplay' at 15;9.", repo.Computer.SystemItemNameDisplayInfo, new RecordItemIndex(50));
             repo.Computer.SystemItemNameDisplay.Click(System.Windows.Forms.MouseButtons.Right, "15;9");
@@ -557,7 +557,7 @@ namespace Outputs
             
             Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'ExcelXlsNotepad.Text15'.", repo.ExcelXlsNotepad.Text15Info, new RecordItemIndex(56));
             Host.Current.CloseApplication(repo.ExcelXlsNotepad.Text15, new Duration(0));
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(100);
 
       
 

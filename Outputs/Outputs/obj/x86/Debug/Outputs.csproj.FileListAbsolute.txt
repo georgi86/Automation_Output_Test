@@ -60,5 +60,3 @@ D:\Joro\GIT_Automations\AutomationOutputs\Outputs\Outputs\bin\Debug\Ranorex.Plug
 D:\Joro\GIT_Automations\AutomationOutputs\Outputs\Outputs\obj\x86\Debug\Outputs.csprojResolveAssemblyReference.cache
 D:\Joro\GIT_Automations\AutomationOutputs\Outputs\Outputs\obj\x86\Debug\Outputs.exe
 D:\Joro\GIT_Automations\AutomationOutputs\Outputs\Outputs\obj\x86\Debug\Outputs.pdb
-D:\Joro\GIT_Automations\AutomationOutputs\Outputs\Outputs\obj\x86\Debug\Outputs.csproj.CoreCompileInputs.cache
-D:\Joro\GIT_Automations\AutomationOutputs\Outputs\Outputs\obj\x86\Debug\Outputs.csproj.CopyComplete
