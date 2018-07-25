@@ -79,6 +79,24 @@ namespace Outputs
 
             Init();
 
+            string strDatastreamFilePath = "D:\\Joro\\GIT_Automations\\AutomationOutputs\\Reports\\datastream.dat";
+            System.IO.File.Delete(strDatastreamFilePath);
+
+            string strExcelFilePath = "D:\\Joro\\GIT_Automations\\AutomationOutputs\\Reports\\excel.xls";
+            System.IO.File.Delete(strExcelFilePath);
+
+            string strExportFilePath = "D:\\Joro\\GIT_Automations\\AutomationOutputs\\Reports\\export.sta";
+            System.IO.File.Delete(strExportFilePath);
+
+            string strPrintFilePath = "D:\\Joro\\GIT_Automations\\AutomationOutputs\\Reports\\print.PRT";
+            System.IO.File.Delete(strPrintFilePath);
+
+            string strReportFilePath = "D:\\Joro\\GIT_Automations\\AutomationOutputs\\Reports\\report.sta";
+            System.IO.File.Delete(strReportFilePath);
+
+            string strStatisticFilePath = "D:\\Joro\\GIT_Automations\\AutomationOutputs\\Reports\\statistic.STA";
+            System.IO.File.Delete(strStatisticFilePath);
+
             // Click somewhere in the TitleBar to get a focus on all options in the Menu Bar
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SnapXUntitled.SnapXUntitled' at 527;9.", repo.SnapXUntitled.SnapXUntitledInfo, new RecordItemIndex(0));
             repo.SnapXUntitled.SnapXUntitled.Click("527;9");
@@ -559,7 +577,11 @@ namespace Outputs
             Host.Current.CloseApplication(repo.ExcelXlsNotepad.Text15, new Duration(0));
             Delay.Milliseconds(100);
 
-      
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SnapXUntitled.ButtonGo' at 47;149.", repo.SnapXUntitled.ButtonGoInfo, new RecordItemIndex(0));
+            repo.SnapXUntitled.ButtonGo.Click("47;149");
+            Delay.Milliseconds(200);
+
+
 
         }
 

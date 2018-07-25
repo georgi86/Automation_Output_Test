@@ -209,6 +209,7 @@ namespace Outputs
             RepoItemInfo _snapxuntitledInfo;
             RepoItemInfo _buttonokInfo;            
             RepoItemInfo _finishInfo;
+            RepoItemInfo _buttongoInfo;
 
             /// <summary>
             /// Creates a new SnapXUntitled  folder.
@@ -219,6 +220,8 @@ namespace Outputs
                 _snapxuntitledInfo = new RepoItemInfo(this, "SnapXUntitled", "titlebar[@accessiblerole='TitleBar']", 30000, null, "7b7d79bf-1f6c-4f0c-83e2-7d402f427298");
                 _buttonokInfo = new RepoItemInfo(this, "ButtonOK", "container/form//button[@text='&OK' and @controlid='1148']", 30000, null, "ad493450-7358-4e88-830e-9afd6077d9fe");                
                 _finishInfo = new RepoItemInfo(this, "Finish", "container/form/?/?/element/element/container/button[@text='Finish' and @controlid='3165']", 30000, null, "79f81ad0-67e4-4979-afb8-84862a366df3");
+                _buttongoInfo = new RepoItemInfo(this, "ButtonGo", "container[@controlid='59648']/form[@controlid='65281']//element[@controlid='59664']/container[@controlid='59648']/button[@text='Go']", 30000, null, "acfdcc93-fe78-46ca-80a6-8aa1b2bc5f34");
+
             }
 
             /// <summary>
@@ -316,6 +319,26 @@ namespace Outputs
                 get
                 {
                     return _finishInfo;
+                }
+            }
+            [RepositoryItem("acfdcc93-fe78-46ca-80a6-8aa1b2bc5f34")]
+            public virtual Ranorex.Button ButtonGo
+            {
+                get
+                {
+                    return _buttongoInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ButtonGo item info.
+            /// </summary>
+            [RepositoryItemInfo("acfdcc93-fe78-46ca-80a6-8aa1b2bc5f34")]
+            public virtual RepoItemInfo ButtonGoInfo
+            {
+                get
+                {
+                    return _buttongoInfo;
                 }
             }
         }
